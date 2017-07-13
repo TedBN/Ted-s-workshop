@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="World_at_war"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/Personal\ projects/Europe\ at\ war\ v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/Personal\ projects/Europe\ at\ war\ v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/Personal\ projects/Europe\ at\ war\ v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/Personal\ projects/Europe\ at\ war\ v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/Personal\ projects/Europe\ at\ war\ v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/Personal\ projects/Europe\ at\ war\ v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/Personal\ projects/Europe\ at\ war\ v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/Personal\ projects/Europe\ at\ war\ v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/Personal\ projects/Europe\ at\ war\ v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/Personal\ projects/Europe\ at\ war\ v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/Personal\ projects/Europe\ at\ war\ v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/Personal\ projects/Europe\ at\ war\ v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="World_at_war">
+				<Option output="/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug/World_at_war.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/Personal\ projects/Europe\ at\ war\ v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 World_at_war"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/Personal\ projects/Europe\ at\ war\ v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/Personal\ projects/Europe\ at\ war\ v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/Personal\ projects/Europe\ at\ war\ v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="World_at_war/fast">
+				<Option output="/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug/World_at_war.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/Personal\ projects/Europe\ at\ war\ v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 World_at_war/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/Personal\ projects/Europe\ at\ war\ v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/Personal\ projects/Europe\ at\ war\ v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/Personal\ projects/Europe\ at\ war\ v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2/Buildings.cpp">
+			<Option target="World_at_war"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2/Buildings.h">
+			<Option target="World_at_war"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2/CMakeLists.txt">
+			<Option target="World_at_war"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2/Controller.cpp">
+			<Option target="World_at_war"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2/Controller.h">
+			<Option target="World_at_war"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2/Countries.h">
+			<Option target="World_at_war"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2/DiploRelations.h">
+			<Option target="World_at_war"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2/MilitaryObjects.h">
+			<Option target="World_at_war"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2/Regions.h">
+			<Option target="World_at_war"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2/Technologies.cpp">
+			<Option target="World_at_war"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2/Technologies.h">
+			<Option target="World_at_war"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2/main.cpp">
+			<Option target="World_at_war"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2/sqlite3.c">
+			<Option target="World_at_war"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2/sqlite3.h">
+			<Option target="World_at_war"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2/cmake/Findsqlite3.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
