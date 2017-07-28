@@ -8,14 +8,13 @@
 #include <string>
 #include <map>
 
-//TO-DO: Experimentation
 class Technology
 {
     /**  This class handles the technology objects to be used for the
-      *  research system and their characteristics.
-      *  Contains members for costs, levels for repeated techs and
-      *  prerequisites. Has a setter function for already existing objects.
-      *  Accessible to the main function, country and controller classes.           */
+      *  research system and their characteristics. Contains members for costs,
+      *  levels for repeated techs and prerequisites. Has a setter function for
+      *  already existing objects and two constructors.
+      *  Accessible to the main function, country, building and controller classes.           */
 
     //Members
     std::string name;
@@ -28,11 +27,13 @@ class Technology
     void add_prerequisite_tech (Technology, int);
 
     //Constructor
+    Technology ();
     Technology (int, std::string, int, int);
 
     //Friend classes and functions
     friend class Controller;
     friend class Country;
+    friend class Building;
     friend int main();
 };
 
