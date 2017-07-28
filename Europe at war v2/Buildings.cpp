@@ -1,13 +1,8 @@
-//
-// Created by Teodor on 1/7/2017..
-//
-
 #include <vector>
 #include "Buildings.h"
 
 //Definitions for constructor and function
-//TO-DO: Fix function error
-Building::Building(int i, std::string n, int c, int ec, int mc, int rc, int m, int t1, int t2, int t3, Technology pt)
+Building::Building(int i, std::string n, int c, int ec, int mc, int rc, int m, int t1, int t2, int t3, Technology pt, int tech_level)
 {
     /**  IDs for buildings are in the 1 to 100 range. Every turn a region generates production and it is
       *  used to complete a selected unit or building. Production cost is the total number required for
@@ -33,7 +28,9 @@ Building::Building(int i, std::string n, int c, int ec, int mc, int rc, int m, i
     metal_cost = mc;
     rares_cost = rc;
     maintenance = m;
+
     prerequisite_tech = pt;
+    prerequisite_tech.level = tech_level;
 
     //Check for null values
     int types[3] = {t1, t2, t3};
@@ -47,6 +44,33 @@ Building::Building(int i, std::string n, int c, int ec, int mc, int rc, int m, i
             {
                 continue;
             }
+    }
+}
+
+Building::Building(int i, std::string n, int c, int ec, int mc, int rc, int m, int t1, int t2, int t3)
+{
+    /**  Same constructor as above, but without a tech prerequisite for construction.       */
+
+    id = i;
+    name = n;
+    production_cost = c;
+    energy_cost = ec;
+    metal_cost = mc;
+    rares_cost = rc;
+    maintenance = m;
+
+    //Check for null values
+    int types[3] = {t1, t2, t3};
+    for (int i2 : types)
+    {
+        if (i2 >= 1 && i2 <= 12)
+        {
+            type.push_back(i2);
+        }
+        else
+        {
+            continue;
+        }
     }
 }
 
