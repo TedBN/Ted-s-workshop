@@ -10,13 +10,14 @@
 #include <string>
 #include "Technologies.h"
 
-//TO-DO: Experimentation
 class Building
 {
     /**  This class handles all in-game buildings and their data.
-      *  Members store data for construction and maintenance costs,
-      *  prerequisites, effects and behavior between buildings.
+      *  Members store data for construction, maintenance costs,
+      *  prerequisites and behavior between buildings.
       *  The functions for the class are setters for existing objects.
+      *  Contains two constructors - one without a tech prerequisite and
+      *  one with a tech prerequisite.
       *  Accessible by main function, region and controller classes.          */
 
     //Members
@@ -25,7 +26,10 @@ class Building
     int production_cost;
     int energy_cost, metal_cost, rares_cost;
     int maintenance;
-    Technology prerequisite_tech;
+
+    Technology prerequisite_tech = Technology();
+    int prerequisite_tech_level;
+
     std::vector <int> type;
     std::vector <Building> prerequisite_buildings;
     std::vector <Building> incompatible_buildings;
@@ -35,7 +39,8 @@ class Building
     void set_prerequisite_buildings (Building, Building);
 
     //Constructor
-    Building (int, std::string, int, int, int, int, int, int, int, int, Technology);
+    Building(int, std::string, int, int, int, int, int, int, int, int, Technology, int);
+    Building(int, std::string, int, int, int, int, int, int, int, int);
 
     //Friend classes and function
     friend class Controller;
