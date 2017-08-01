@@ -89,17 +89,3 @@ void Controller::create_database()
 
     sqlite3_close(db);
 }
-
-int Controller::new_countries()
-{
-    /**
-        Creates the default country objects for the game. Takes no arguments.
-    */
-
-    //Vector with strings to be used in a for loop.
-    std::vector <std::string> country_names =
-    {"Portugal", "Spain", "France", "Ireland", "United Kingdom",  "Netherlands", "Belgium", "Luxembourg",
-     "Switzerland", "Italy", "Germany", "Denmark", "Norway", "Austria", "Yugoslavia", "Sweden",
-     "Czechoslovakia", "Poland", "Finland", "Hungary", "Romania",  "Bulgaria", "Greece", "Latvia", "Estonia",
-     "Lithuania", "Soviet Union", "Turkey"};
-}

@@ -29,10 +29,14 @@ Technology::Technology()
     level = 0;
 }
 
-void Technology::add_prerequisite_tech(Technology tech, int level_a)
+void Technology::set_prerequisite_techs(int tech_1, int level_1, int tech_2, int level_2,
+                                        int tech_3, int level_3, int tech_4, int level_4)
 {
-    /**  Assigns the given technology and level as a prerequisite to the technology
-      *  this method is called on.                                                      */
+    /**  Assigns the supplied technologies via their IDs ('tech' integers) and necessary levels
+      *  as a prerequisites to  the technology his method is called on.                            */
 
-    prerequisites.insert(std::pair <Technology, int> (tech, level_a));
+    prerequisites.insert(std::pair <int, int> (tech_1, level_1));
+    prerequisites.insert(std::pair <int, int> (tech_2, level_2));
+    prerequisites.insert(std::pair <int, int> (tech_3, level_3));
+    prerequisites.insert(std::pair <int, int> (tech_4, level_4));
 }

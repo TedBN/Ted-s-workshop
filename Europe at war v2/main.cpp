@@ -235,40 +235,43 @@ int main()
     Technology nuclear_research = Technology (258, "Nuclear research", 18000, 0);
     Technology atomic_bomb = Technology (259, "Atomic bomb", 18000, 0);
 
+    //Tech prerequisite settings
+
+
     /*  Creation of default objects for building class. Setter functions are used afterwards.       */
 
     //Debug building class object creation
-    Building empty = Building (0, "Empty", 0, 0, 0, 0, 0, NULL, NULL, NULL);
+    Building empty = Building (0, "Empty", 0, 0, 0, 0, 0, -1, -1, -1);
 
     //Building class object creation
-    Building university = Building (1, "University", 150, 50, 100, 50, 2, 1, NULL, NULL);
-    Building public_school = Building (2, "Public School", 300, 200, 200, 100, 3, 1, NULL, NULL, education, 1);
-    Building research_center = Building (3, "Research center", 400, 300, 200, 150, 5, 1, NULL, NULL, education, 3);
+    Building university = Building (1, "University", 150, 50, 100, 50, 2, 1, -1, -1);
+    Building public_school = Building (2, "Public School", 300, 200, 200, 100, 3, 1, -1, -1, education, 1);
+    Building research_center = Building (3, "Research center", 400, 300, 200, 150, 5, 1, -1, -1, education, 3);
 
-    Building barracks = Building (4, "Barracks", 150, 50, 100, 50, 2, 3, 12, NULL, infantry_creation, 0);
+    Building barracks = Building (4, "Barracks", 150, 50, 100, 50, 2, 3, 12, -1, infantry_creation, 0);
     Building military_academy = Building (5, "Military academy", 200, 100, 200, 100, 4, 3, 11, 12);
-    Building military_base = Building (6, "Military base", 450, 200, 400, 150, 8, 3, 11, NULL);
+    Building military_base = Building (6, "Military base", 450, 200, 400, 150, 8, 3, 11, -1);
 
-    Building factory = Building (7, "Factory", 275, 100, 75, 25, 2, 2, 7, NULL);
-    Building armour_factory = Building (8, "Armour factory", 320, 125, 100, 50, 2, 3, 7, NULL, light_tank_creation, 0);
+    Building factory = Building (7, "Factory", 275, 100, 75, 25, 2, 2, 7, -1);
+    Building armour_factory = Building (8, "Armour factory", 320, 125, 100, 50, 2, 3, 7, -1, light_tank_creation, 0);
     Building small_air_factory = Building (9, "Small air factory", 320, 125, 100, 50, 2, 2, 3, 7, fighter_creation, 0);
     Building medium_air_factory = Building (10, "Medium air factory", 320, 125, 100, 50, 2, 2, 3, 7, medium_bomber_creation, 0);
     Building large_air_factory = Building (11, "Large air factory", 320, 125, 100, 50, 2, 2, 3, 7, heavy_bomber_creation, 0);
 
     Building harbor = Building (12, "Harbor", 150, 50, 100, 25, 2, 3, 7, 9);
-    Building shipyard = Building (13, "Shipyard", 320, 125, 100, 50, 3, 2, 3, NULL, destroyer_creation, 0);
+    Building shipyard = Building (13, "Shipyard", 320, 125, 100, 50, 3, 2, 3, -1, destroyer_creation, 0);
 
-    Building naval_base = Building (14, "Naval base", 250, 100, 75, 50, 2, 9, NULL, NULL, destroyer_creation, 0);
-    Building airfield = Building (15, "Airfield", 250, 100, 75, 50, 2, 9, NULL, NULL, fighter_creation, 0);
+    Building naval_base = Building (14, "Naval base", 250, 100, 75, 50, 2, 9, -1, -1, destroyer_creation, 0);
+    Building airfield = Building (15, "Airfield", 250, 100, 75, 50, 2, 9, -1, -1, fighter_creation, 0);
 
-    Building synthetic_oil_refinery = Building (16, "Synthetic oil refinery", 400, 250, 300, 150, 2, 3, NULL, NULL, synthetic_oil_creation, 0);
-    Building oil_well = Building (17, "Oil well", 200, 150, 100, 25, 3, 6, NULL, NULL);
-    Building coal_mine = Building (18, "Coal mine", 200, 50, 100, 25, 2, 4, NULL, NULL);
-    Building quarry = Building (19, "Quarry", 200, 150, 50, 25, 2, 5, NULL, NULL);
-    Building mine_shaft = Building (20, "Mine shaft", 200, 150, 100, 10, 2, 13, NULL, NULL);
+    Building synthetic_oil_refinery = Building (16, "Synthetic oil refinery", 400, 250, 300, 150, 2, 3, -1, -1, synthetic_oil_creation, 0);
+    Building oil_well = Building (17, "Oil well", 200, 150, 100, 25, 3, 6, -1, -1);
+    Building coal_mine = Building (18, "Coal mine", 200, 50, 100, 25, 2, 4, -1, -1);
+    Building quarry = Building (19, "Quarry", 200, 150, 50, 25, 2, 5, -1, -1);
+    Building mine_shaft = Building (20, "Mine shaft", 200, 150, 100, 10, 2, 13, -1, -1);
 
     Building bank = Building (21, "Bank", 250, 100, 50, 125, 0, 10, 0, 0);
-    Building stock_exchange = Building (22, "Stock exchange", 450, 200, 100, 250, 0, 10, NULL, NULL);
+    Building stock_exchange = Building (22, "Stock exchange", 450, 200, 100, 250, 0, 10, -1, -1);
 
     //Prerequisite settings for buildings
     public_school.set_prerequisite_buildings(university, empty);

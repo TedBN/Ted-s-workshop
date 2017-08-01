@@ -5,7 +5,7 @@
 		<Option title="World_at_war"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
+		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug"/>
@@ -124,9 +124,6 @@
 		</Unit>
 		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
-		</Unit>
-		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2/cmake/Findsqlite3.cmake">
-			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

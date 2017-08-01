@@ -21,12 +21,12 @@ class Technology
     int id;
     int science_cost;
     int level;
-    std::map <Technology, int> prerequisites;
+    std::map <int, int> prerequisites;
 
     //Function
-    void add_prerequisite_tech (Technology, int);
+    void set_prerequisite_techs(int, int, int, int, int, int, int, int);
 
-    //Constructor
+    //Constructors
     Technology ();
     Technology (int, std::string, int, int);
 

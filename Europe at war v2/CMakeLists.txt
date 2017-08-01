@@ -3,7 +3,7 @@ project(World_at_war)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH}  "${CMAKE_CURRENT_SOURCE_DIR}/cmake}")
 
 set(SOURCE_FILES
         CMakeLists.txt
@@ -16,12 +16,14 @@ set(SOURCE_FILES
         Controller.cpp
         sqlite3.c
         Buildings.h
-        Technologies.h Buildings.cpp Technologies.cpp)
+        Technologies.h
+        Buildings.cpp
+        Technologies.cpp)
 
 add_executable(World_at_war ${SOURCE_FILES})
 
-find_package (sqlite3)
+find_package(sqlite3)
 if (SQLITE3_FOUND)
     include_directories(${SQLITE3_INCLUDE_DIRS})
-    target_link_libraries (World_at_war ${SQLITE3_LIBRARIES})
-endif (SQLITE3_FOUND)
+    target_link_libraries(World_at_war  ${SQLITE3_LIBRARIES})
+endif(SQLITE3_FOUND)

@@ -1,5 +1,21 @@
-C:\Users\persi\.CLion2017.1\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/cygdrive/f/Personal projects/Europe at war v2"
--- Could NOT find SQLITE3 (missing:  SQLITE3_LIBRARY) 
+C:\Users\persi\.CLion2017.2\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/cygdrive/f/Personal projects/Europe at war v2"
+CMake Warning at CMakeLists.txt:25 (find_package):
+  By not providing "Findsqlite3.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "sqlite3", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "sqlite3" with any
+  of the following names:
+
+    sqlite3Config.cmake
+    sqlite3-config.cmake
+
+  Add the installation prefix of "sqlite3" to CMAKE_PREFIX_PATH or set
+  "sqlite3_DIR" to a directory containing one of the above files.  If
+  "sqlite3" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug
