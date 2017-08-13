@@ -5,9 +5,6 @@
 #ifndef BUILDINGS_H
 #define BUILDINGS_H
 
-#include <iostream>
-#include <vector>
-#include <string>
 #include "Technologies.h"
 
 class Building
@@ -15,10 +12,19 @@ class Building
     /**  This class handles all in-game buildings and their data.
       *  Members store data for construction, maintenance costs,
       *  prerequisites and behavior between buildings.
+      *  Objects are tracked via the static vectors.
+      *  Upon creation each object must be added to the correct vector.
       *  The functions for the class are setters for existing objects.
       *  Contains two constructors - one without a tech prerequisite and
       *  one with a tech prerequisite.
       *  Accessible by main function, region and controller classes.          */
+
+    //Static vectors
+    static std::vector <Building> education_buildings;
+    static std::vector <Building> military_buildings;
+    static std::vector <Building> factories;
+    static std::vector <Building> resource_buildings;
+    static std::vector <Building> economic_buildings;
 
     //Members
     std::string name;
@@ -38,7 +44,7 @@ class Building
     void set_incompatible_buildings (Building, Building, Building);
     void set_prerequisite_buildings (Building, Building);
 
-    //Constructor
+    //Constructors
     Building(int, std::string, int, int, int, int, int, int, int, int, Technology, int);
     Building(int, std::string, int, int, int, int, int, int, int, int);
 

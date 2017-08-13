@@ -13,12 +13,6 @@ Buildings.h
 /cygdrive/f/Personal projects/Europe at war v2/Buildings.h
 
 /cygdrive/f/Personal projects/Europe at war v2/Buildings.h
-iostream
--
-vector
--
-string
--
 Technologies.h
 /cygdrive/f/Personal projects/Europe at war v2/Technologies.h
 
@@ -33,6 +27,8 @@ Controller.h
 /cygdrive/f/Personal projects/Europe at war v2/Controller.h
 
 /cygdrive/f/Personal projects/Europe at war v2/Controller.h
+Buildings.h
+/cygdrive/f/Personal projects/Europe at war v2/Buildings.h
 
 /cygdrive/f/Personal projects/Europe at war v2/Countries.h
 string
@@ -68,6 +64,8 @@ Technologies.h
 
 /cygdrive/f/Personal projects/Europe at war v2/Technologies.h
 string
+-
+vector
 -
 map
 -

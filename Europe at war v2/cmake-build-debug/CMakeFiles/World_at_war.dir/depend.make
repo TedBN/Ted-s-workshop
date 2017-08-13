@@ -7,8 +7,10 @@ CMakeFiles/World_at_war.dir/Buildings.cpp.o: ../Buildings.cpp
 CMakeFiles/World_at_war.dir/Buildings.cpp.o: ../Buildings.h
 CMakeFiles/World_at_war.dir/Buildings.cpp.o: ../Technologies.h
 
+CMakeFiles/World_at_war.dir/Controller.cpp.o: ../Buildings.h
 CMakeFiles/World_at_war.dir/Controller.cpp.o: ../Controller.cpp
 CMakeFiles/World_at_war.dir/Controller.cpp.o: ../Controller.h
+CMakeFiles/World_at_war.dir/Controller.cpp.o: ../Technologies.h
 CMakeFiles/World_at_war.dir/Controller.cpp.o: ../sqlite3.h
 
 CMakeFiles/World_at_war.dir/Technologies.cpp.o: ../Technologies.cpp

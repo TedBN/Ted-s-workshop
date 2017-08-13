@@ -4,7 +4,31 @@
 
 #include "Technologies.h"
 
-Technology::Technology (int id_a, std::string name_a, int cost, int level_a)
+    //Static vector definitions
+    std::vector <Technology> Technology::infantry_and_support_techs = {};
+    std::vector <Technology> Technology::armour_techs = {};
+
+    std::vector <Technology> Technology::single_engine_aircraft_techs = {};
+    std::vector <Technology> Technology::twin_engine_aircraft_techs = {};
+    std::vector <Technology> Technology::four_engine_aircraft_techs = {};
+    std::vector <Technology> Technology::aircraft_armament_and_engine_techs = {};
+    std::vector <Technology> Technology::carrier_aircraft_techs = {};
+    std::vector <Technology> Technology::aircraft_radar_techs = {};
+
+    std::vector <Technology> Technology::destroyer_and_pt_boat_techs = {};
+    std::vector <Technology> Technology::cruiser_techs = {};
+    std::vector <Technology> Technology::battleship_and_cruiser_techs = {};
+    std::vector <Technology> Technology::aircraft_carrier_techs = {};
+    std::vector <Technology> Technology::submarine_and_torpedo_techs = {};
+    std::vector <Technology> Technology::radar_sonar_and_transport_techs = {};
+
+    std::vector <Technology> Technology::science_and_manpower_techs = {};
+    std::vector <Technology> Technology::resource_and_production_techs = {};
+    std::vector <Technology> Technology::jet_engine_and_rocket_techs = {};
+    std::vector <Technology> Technology::electronic_and_cryptographic_techs = {};
+    std::vector <Technology> Technology::nuclear_techs = {};
+
+Technology::Technology(int id_a, std::string name_a, int cost, int level_a)
 {
     /**  IDs for technologies are in the 100-200 range. Science is generated in regions
       *  and must reached the given number to research a technology. Technologies may
@@ -17,6 +41,7 @@ Technology::Technology (int id_a, std::string name_a, int cost, int level_a)
     name = name_a;
     science_cost = cost;
     level = level_a;
+
 }
 
 Technology::Technology()
@@ -29,14 +54,28 @@ Technology::Technology()
     level = 0;
 }
 
-void Technology::set_prerequisite_techs(int tech_1, int level_1, int tech_2, int level_2,
-                                        int tech_3, int level_3, int tech_4, int level_4)
+void Technology::set_prerequisite_techs(int tech_1, int level_1, int tech_2, int level_2, int tech_3, int level_3,
+                                        int tech_4, int level_4, int tech_5, int level_5)
 {
     /**  Assigns the supplied technologies via their IDs ('tech' integers) and necessary levels
-      *  as a prerequisites to  the technology his method is called on.                            */
+      *  as a prerequisites to the technology his method is called on. -1 means an empty slot
+      *  and is ignored.                                                                            */
 
-    prerequisites.insert(std::pair <int, int> (tech_1, level_1));
-    prerequisites.insert(std::pair <int, int> (tech_2, level_2));
-    prerequisites.insert(std::pair <int, int> (tech_3, level_3));
-    prerequisites.insert(std::pair <int, int> (tech_4, level_4));
+    std::vector <int> techs = {tech_1, tech_2, tech_3, tech_4, tech_5};
+    std::vector <int> levels = {level_1, level_2, level_3, level_4, level_5};
+
+    for (int i : techs)
+    {
+        if (i != -1)
+        {
+            if (levels[i] != -1)
+            {
+                prerequisites.insert(std::pair <int, int> (i, levels[i]));
+            }
+
+            else { continue; }
+        }
+
+        else { continue; }
+    }
 }

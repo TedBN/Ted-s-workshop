@@ -5,6 +5,13 @@
 #include <vector>
 #include "Buildings.h"
 
+    //Static vector definitions
+    std::vector <Building> Building::education_buildings = {};
+    std::vector <Building> Building::military_buildings = {};
+    std::vector <Building> Building::factories = {};
+    std::vector <Building> Building::resource_buildings = {};
+    std::vector <Building> Building::economic_buildings = {};
+
 //Definitions for constructor and function
 Building::Building(int i, std::string n, int c, int ec, int mc, int rc, int m, int t1, int t2, int t3, Technology pt, int tech_level)
 {
@@ -44,10 +51,7 @@ Building::Building(int i, std::string n, int c, int ec, int mc, int rc, int m, i
         {
             type.push_back(i2);
         }
-            else
-            {
-                continue;
-            }
+            else { continue; }
     }
 }
 
@@ -71,10 +75,8 @@ Building::Building(int i, std::string n, int c, int ec, int mc, int rc, int m, i
         {
             type.push_back(i2);
         }
-        else
-        {
-            continue;
-        }
+
+        else { continue; }
     }
 }
 
