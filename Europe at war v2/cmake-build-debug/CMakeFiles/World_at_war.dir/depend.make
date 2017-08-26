@@ -10,18 +10,21 @@ CMakeFiles/World_at_war.dir/Buildings.cpp.o: ../Technologies.h
 CMakeFiles/World_at_war.dir/Controller.cpp.o: ../Buildings.h
 CMakeFiles/World_at_war.dir/Controller.cpp.o: ../Controller.cpp
 CMakeFiles/World_at_war.dir/Controller.cpp.o: ../Controller.h
+CMakeFiles/World_at_war.dir/Controller.cpp.o: ../MilitaryObjects.h
 CMakeFiles/World_at_war.dir/Controller.cpp.o: ../Technologies.h
 CMakeFiles/World_at_war.dir/Controller.cpp.o: ../sqlite3.h
+
+CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.o: ../Buildings.h
+CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.o: ../MilitaryObjects.cpp
+CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.o: ../MilitaryObjects.h
+CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.o: ../Technologies.h
 
 CMakeFiles/World_at_war.dir/Technologies.cpp.o: ../Technologies.cpp
 CMakeFiles/World_at_war.dir/Technologies.cpp.o: ../Technologies.h
 
 CMakeFiles/World_at_war.dir/main.cpp.o: ../Buildings.h
 CMakeFiles/World_at_war.dir/main.cpp.o: ../Controller.h
-CMakeFiles/World_at_war.dir/main.cpp.o: ../Countries.h
-CMakeFiles/World_at_war.dir/main.cpp.o: ../DiploRelations.h
 CMakeFiles/World_at_war.dir/main.cpp.o: ../MilitaryObjects.h
-CMakeFiles/World_at_war.dir/main.cpp.o: ../Regions.h
 CMakeFiles/World_at_war.dir/main.cpp.o: ../Technologies.h
 CMakeFiles/World_at_war.dir/main.cpp.o: ../main.cpp
 

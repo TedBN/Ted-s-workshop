@@ -18,7 +18,8 @@ set(SOURCE_FILES
         Buildings.h
         Technologies.h
         Buildings.cpp
-        Technologies.cpp)
+        Technologies.cpp
+        MilitaryObjects.cpp)
 
 add_executable(World_at_war ${SOURCE_FILES})
 

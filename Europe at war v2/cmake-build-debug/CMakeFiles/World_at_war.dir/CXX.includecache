@@ -6,63 +6,37 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/f/Personal projects/Europe at war v2/Buildings.cpp
-vector
--
+/cygdrive/g/Personal projects/Europe at war v2/Buildings.cpp
 Buildings.h
-/cygdrive/f/Personal projects/Europe at war v2/Buildings.h
+/cygdrive/g/Personal projects/Europe at war v2/Buildings.h
 
-/cygdrive/f/Personal projects/Europe at war v2/Buildings.h
+/cygdrive/g/Personal projects/Europe at war v2/Buildings.h
 Technologies.h
-/cygdrive/f/Personal projects/Europe at war v2/Technologies.h
+/cygdrive/g/Personal projects/Europe at war v2/Technologies.h
 
-/cygdrive/f/Personal projects/Europe at war v2/Controller.cpp
-iostream
--
-vector
--
+/cygdrive/g/Personal projects/Europe at war v2/Controller.cpp
 sqlite3.h
-/cygdrive/f/Personal projects/Europe at war v2/sqlite3.h
+/cygdrive/g/Personal projects/Europe at war v2/sqlite3.h
 Controller.h
-/cygdrive/f/Personal projects/Europe at war v2/Controller.h
+/cygdrive/g/Personal projects/Europe at war v2/Controller.h
 
-/cygdrive/f/Personal projects/Europe at war v2/Controller.h
+/cygdrive/g/Personal projects/Europe at war v2/Controller.h
+MilitaryObjects.h
+/cygdrive/g/Personal projects/Europe at war v2/MilitaryObjects.h
+
+/cygdrive/g/Personal projects/Europe at war v2/MilitaryObjects.cpp
+MilitaryObjects.h
+/cygdrive/g/Personal projects/Europe at war v2/MilitaryObjects.h
+
+/cygdrive/g/Personal projects/Europe at war v2/MilitaryObjects.h
 Buildings.h
-/cygdrive/f/Personal projects/Europe at war v2/Buildings.h
+/cygdrive/g/Personal projects/Europe at war v2/Buildings.h
 
-/cygdrive/f/Personal projects/Europe at war v2/Countries.h
-string
--
-vector
--
-Regions.h
-/cygdrive/f/Personal projects/Europe at war v2/Regions.h
-DiploRelations.h
-/cygdrive/f/Personal projects/Europe at war v2/DiploRelations.h
-
-/cygdrive/f/Personal projects/Europe at war v2/DiploRelations.h
-string
--
-
-/cygdrive/f/Personal projects/Europe at war v2/MilitaryObjects.h
-string
--
-
-/cygdrive/f/Personal projects/Europe at war v2/Regions.h
-vector
--
-string
--
-Buildings.h
-/cygdrive/f/Personal projects/Europe at war v2/Buildings.h
-Countries.h
-/cygdrive/f/Personal projects/Europe at war v2/Countries.h
-
-/cygdrive/f/Personal projects/Europe at war v2/Technologies.cpp
+/cygdrive/g/Personal projects/Europe at war v2/Technologies.cpp
 Technologies.h
-/cygdrive/f/Personal projects/Europe at war v2/Technologies.h
+/cygdrive/g/Personal projects/Europe at war v2/Technologies.h
 
-/cygdrive/f/Personal projects/Europe at war v2/Technologies.h
+/cygdrive/g/Personal projects/Europe at war v2/Technologies.h
 string
 -
 vector
@@ -70,17 +44,15 @@ vector
 map
 -
 
-/cygdrive/f/Personal projects/Europe at war v2/main.cpp
+/cygdrive/g/Personal projects/Europe at war v2/main.cpp
 iostream
 -
 MilitaryObjects.h
-/cygdrive/f/Personal projects/Europe at war v2/MilitaryObjects.h
+/cygdrive/g/Personal projects/Europe at war v2/MilitaryObjects.h
 Controller.h
-/cygdrive/f/Personal projects/Europe at war v2/Controller.h
-Countries.h
-/cygdrive/f/Personal projects/Europe at war v2/Countries.h
+/cygdrive/g/Personal projects/Europe at war v2/Controller.h
 
-/cygdrive/f/Personal projects/Europe at war v2/sqlite3.h
+/cygdrive/g/Personal projects/Europe at war v2/sqlite3.h
 stdarg.h
 -
 

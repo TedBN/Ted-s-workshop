@@ -5,9 +5,8 @@
 #ifndef MILITARYOBJECTS_H
 #define MILITARYOBJECTS_H
 
-#include <string>
+#include "Buildings.h"
 
-//TO-DO: Experiment with superclass
 class MilitaryUnit
 {
     /**  This class is the base for all military units in the game.
@@ -19,22 +18,29 @@ class MilitaryUnit
     std::string name;
     int id;
     int attack, defense, movement, range;
-    int energy_cost, metal_cost, oil_cost, manpower_cost;
+    int build_time, energy_cost, metal_cost, oil_cost, manpower_cost;
 
     //Setting methods
-    void set_stats();
-    void set_costs();
+    void set_stats(int, int, int, int);
+    void set_costs(int, int, int, int, int);
+
+    //Friend classes and functions
+    friend class LandUnit;
+    friend class AirUnit;
+    friend class NavalUnit;
 };
 
-//TO-DO: Add more stuff to subclasses
 class LandUnit : public MilitaryUnit
 {
     /**  This class handles every country's ground forces and data of
       *  every ground unit type. Borrows all members from superclass.
       *  Accessible to the main function and controller class                */
 
+    //Static vector
+    static std::vector <LandUnit> land_units;
+
     //Constructor
-    LandUnit (int, std::string, int, int, int, int, int, int, int, int);
+    LandUnit (int, std::string, int, int, int, int, int, int, int, int, int);
 
     //Friend classes and functions
     friend class Controller;
@@ -46,6 +52,9 @@ class AirUnit : public MilitaryUnit
     /**  This class handles every country's air forces and data of
       *  every air unit type. Borrows all members from superclass.
       *  Accessible to the main function and controller class                */
+
+    //Static vector
+    static std::vector <AirUnit> air_units;
 
     //Constructor
     AirUnit (int, std::string, int, int, int, int, int, int, int, int);
@@ -61,8 +70,11 @@ class NavalUnit : public MilitaryUnit
       *  every naval unit type. Borrows all members from superclass.
       *  Accessible to the main function and controller class                */
 
+    //Static vector
+    static std::vector <NavalUnit> naval_units;
+
     //Constructor
-    NavalUnit (int, std::string, int, int, int, int, int, int, int, int);
+    NavalUnit (int, std::string, int, int, int, int, int, int, int, int, int);
 
     //Friend classes and functions
     friend class Controller;

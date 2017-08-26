@@ -2,7 +2,6 @@
 // Created by Teodor on 1/7/2017..
 //
 
-#include <vector>
 #include "Buildings.h"
 
     //Static vector definitions

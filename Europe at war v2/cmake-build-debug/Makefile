@@ -48,10 +48,10 @@ RM = /cygdrive/c/Users/persi/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/cygdrive/f/Personal projects/Europe at war v2"
+CMAKE_SOURCE_DIR = "/cygdrive/g/Personal projects/Europe at war v2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug"
+CMAKE_BINARY_DIR = "/cygdrive/g/Personal projects/Europe at war v2/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles" "/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/g/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles" "/cygdrive/g/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/g/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -176,6 +176,33 @@ Controller.s: Controller.cpp.s
 Controller.cpp.s:
 	$(MAKE) -f CMakeFiles/World_at_war.dir/build.make CMakeFiles/World_at_war.dir/Controller.cpp.s
 .PHONY : Controller.cpp.s
+
+MilitaryObjects.o: MilitaryObjects.cpp.o
+
+.PHONY : MilitaryObjects.o
+
+# target to build an object file
+MilitaryObjects.cpp.o:
+	$(MAKE) -f CMakeFiles/World_at_war.dir/build.make CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.o
+.PHONY : MilitaryObjects.cpp.o
+
+MilitaryObjects.i: MilitaryObjects.cpp.i
+
+.PHONY : MilitaryObjects.i
+
+# target to preprocess a source file
+MilitaryObjects.cpp.i:
+	$(MAKE) -f CMakeFiles/World_at_war.dir/build.make CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.i
+.PHONY : MilitaryObjects.cpp.i
+
+MilitaryObjects.s: MilitaryObjects.cpp.s
+
+.PHONY : MilitaryObjects.s
+
+# target to generate assembly for a file
+MilitaryObjects.cpp.s:
+	$(MAKE) -f CMakeFiles/World_at_war.dir/build.make CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.s
+.PHONY : MilitaryObjects.cpp.s
 
 Technologies.o: Technologies.cpp.o
 
@@ -273,6 +300,9 @@ help:
 	@echo "... Controller.o"
 	@echo "... Controller.i"
 	@echo "... Controller.s"
+	@echo "... MilitaryObjects.o"
+	@echo "... MilitaryObjects.i"
+	@echo "... MilitaryObjects.s"
 	@echo "... Technologies.o"
 	@echo "... Technologies.i"
 	@echo "... Technologies.s"

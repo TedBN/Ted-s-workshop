@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/f/Personal projects/Europe at war v2/sqlite3.c
+/cygdrive/g/Personal projects/Europe at war v2/sqlite3.c
 vxWorks.h
 -
 pthread.h
 -
 mingw.h
-/cygdrive/f/Personal projects/Europe at war v2/mingw.h
+/cygdrive/g/Personal projects/Europe at war v2/mingw.h
 _mingw.h
-/cygdrive/f/Personal projects/Europe at war v2/_mingw.h
+/cygdrive/g/Personal projects/Europe at war v2/_mingw.h
 stdarg.h
 -
 config.h
-/cygdrive/f/Personal projects/Europe at war v2/config.h
+/cygdrive/g/Personal projects/Europe at war v2/config.h
 stdint.h
 -
 inttypes.h
@@ -54,7 +54,7 @@ malloc.h
 pthread.h
 -
 windows.h
-/cygdrive/f/Personal projects/Europe at war v2/windows.h
+/cygdrive/g/Personal projects/Europe at war v2/windows.h
 sys/cygwin.h
 -
 errno.h
@@ -98,11 +98,11 @@ sys/statvfs.h
 dlfcn.h
 -
 sqlite_tcl.h
-/cygdrive/f/Personal projects/Europe at war v2/sqlite_tcl.h
+/cygdrive/g/Personal projects/Europe at war v2/sqlite_tcl.h
 tcl.h
-/cygdrive/f/Personal projects/Europe at war v2/tcl.h
+/cygdrive/g/Personal projects/Europe at war v2/tcl.h
 sqlite3rtree.h
-/cygdrive/f/Personal projects/Europe at war v2/sqlite3rtree.h
+/cygdrive/g/Personal projects/Europe at war v2/sqlite3rtree.h
 unicode/utypes.h
 -
 unicode/uregex.h

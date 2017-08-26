@@ -2,8 +2,6 @@
 // Created by Teodor on 21/6/2017..
 //
 
-#include <iostream>
-#include <vector>
 #include "sqlite3.h"
 #include "Controller.h"
 
@@ -777,3 +775,137 @@ void Controller::create_buildings()
     medium_air_factory.set_incompatible_buildings(armour_factory, empty, empty);
     large_air_factory.set_incompatible_buildings(armour_factory, small_air_factory, empty);
 }
+
+void Controller::create_military_units()
+{
+    /**  Creates and adds military objects to static vectors for the game.            */
+
+    //Land units
+    LandUnit militia = LandUnit(301, "Militia", 15, 20, 2, 0, 3, 75, 50, 25, 75);
+    LandUnit cavalry = LandUnit(302, "Cavalry", 20, 15, 4, 0, 5, 100, 75, 50, 75);
+
+    LandUnit infantry = LandUnit(303, "Infantry", 25, 30, 2, 0, 7, 125, 100, 50, 75);
+    LandUnit motorized_infantry = LandUnit(304, "Motorized infantry", 30, 30, 4, 0, 9, 175, 150, 75, 50);
+    LandUnit mechanized_infantry = LandUnit(305, "Mechanized infantry", 35, 40, 4, 0, 13, 225, 175, 100, 50);
+    LandUnit mountain_infantry = LandUnit(306, "Mountain infantry", 25, 30, 2, 0, 9, 150, 125, 50, 75);
+    LandUnit marine_infantry = LandUnit(307, "Marine", 25, 30, 2, 0, 9, 150, 125, 50, 75);
+    LandUnit airborne_infantry = LandUnit(308, "Paratrooper", 25, 30, 2, 0, 9, 150, 125, 75, 75);
+    LandUnit elite_infantry = LandUnit(309, "Elite infantry", 30, 35, 2, 0, 11, 200, 150, 75, 75);
+
+    LandUnit artillery = LandUnit(310, "Artillery", 30, 15, 2, 2, 11, 150, 175, 75, 25);
+    LandUnit anti_tank = LandUnit(311, "Anti-tank gun", 30, 15, 2, 0, 11, 150, 175, 75, 25);
+    LandUnit anti_aircraft = LandUnit(312, "Anti-aircraft gun", 30, 15, 2, 0, 10, 150, 175, 75, 25);
+
+    LandUnit armoured_car = LandUnit(313, "Armoured car", 25, 20, 4, 0, 9, 125, 150, 50, 50);
+    LandUnit light_tank = LandUnit(314, "Light tank", 40, 40, 5, 0, 13, 175, 200, 75, 50);
+    LandUnit medium_tank = LandUnit(315, "Medium tank", 45, 45, 4, 0, 16, 200, 225, 100, 25);
+    LandUnit heavy_tank = LandUnit(316, "Heavy tank", 50, 50, 3, 0, 18, 250, 275, 150, 25);
+    LandUnit super_heavy_tank = LandUnit(317, "Super heavy tank", 55, 55, 1, 0, 22, 275, 300, 175, 25);
+    LandUnit modern_tank = LandUnit(318, "Modern tank", 55, 50, 4, 0, 18, 250, 275, 150, 25);
+
+
+    //Air units
+    AirUnit fighter = AirUnit(319, "Fighter", 25, 30, 3, 10, 150, 175, 125, 15);
+    AirUnit close_air_support = AirUnit(320, "Close air support", 20, 20, 2, 11, 175, 200, 125, 25);
+    AirUnit fighter_bomber = AirUnit(321, "Fighter-bomber", 20, 25, 4, 13, 200, 225, 125, 15);
+    AirUnit naval_bomber = AirUnit(322, "Naval bomber", 20, 20, 2, 13, 175, 200, 125, 15);
+    AirUnit rocket_interceptor = AirUnit(323, "Rocket interceptor", 32, 40, 1, 16, 225, 250, 150, 15);
+    AirUnit jet_fighter = AirUnit(324, "Jet fighter", 40, 45, 4, 19, 300, 275, 175, 15);
+
+    AirUnit carrier_fighter = AirUnit(325, "Carrier fighter", 25, 30, 3, 10, 150, 175, 125, 15);
+    AirUnit carrier_close_air_support = AirUnit(326, "Carrier close air support", 20, 20, 2, 11, 175, 200, 125, 25);
+    AirUnit carrier_naval_bomber = AirUnit(327, "Carrier naval bomber", 20, 20, 2, 11, 175, 200, 125, 15);
+
+    AirUnit tactical_bomber = AirUnit(328, "Tactical bomber", 30, 40, 1, 13, 225, 250, 150, 15);
+    AirUnit heavy_fighter = AirUnit(329, "Heavy fighter", 40, 35, 4, 13, 200, 225, 125, 15);
+
+    AirUnit strategic_bomber = AirUnit(330, "Strategic bomber", 40, 40, 8, 18, 275, 250, 175, 15);
+    AirUnit transport_plane = AirUnit(331, "Transport plane", 0, 15, 8, 17, 275, 250, 175, 15);
+
+
+    //Naval units
+    NavalUnit convoy = NavalUnit(332, "Convoy", 0, 0, 3, 0, 6, 50, 25, 50, 15);
+    NavalUnit transport_ship = NavalUnit(333, "Transport ship", 0, 10, 3, 0, 8, 75, 50, 75, 15);
+
+    NavalUnit torpedo_boat = NavalUnit(334, "Torpedo boat", 15, 20, 6, 1, 9, 150, 125, 100, 15);
+    NavalUnit destroyer = NavalUnit(335, "Destroyer", 20, 25, 6, 1, 12, 175, 150, 125, 25);
+    NavalUnit light_cruiser = NavalUnit(336, "Light cruiser", 25, 30, 5, 2, 15, 200, 175, 150, 25);
+
+    NavalUnit heavy_cruiser = NavalUnit(337, "Heavy cruiser", 30, 35, 4, 3, 18, 250, 225, 200, 25);
+    NavalUnit battleship = NavalUnit(338, "Battleship", 40, 45, 3, 4, 22, 250, 225, 200, 50);
+    NavalUnit battlecruiser = NavalUnit(339, "Battlecruiser", 40, 35, 4, 4, 22, 225, 250, 200, 50);
+    NavalUnit super_heavy_battleship = NavalUnit(340, "Super heavy battleship", 50, 55, 2, 4, 26, 300, 325, 250, 75);
+
+    NavalUnit escort_carrier = NavalUnit(341, "Escort carrier", 15, 15, 4, 0, 15, 200, 175, 175, 25);
+    NavalUnit aircraft_carrier = NavalUnit(342, "Aircraft carrier", 20, 20, 5, 0, 24, 225, 250, 225, 50);
+
+    NavalUnit submarine = NavalUnit(343, "Submarine", 25, 15, 4, 2, 17, 250, 225, 200, 25);
+    NavalUnit landing_craft = NavalUnit(344, "Landing craft", 0, 15, 4, 0, 11, 175, 150, 125, 10);
+    NavalUnit assault_ship = NavalUnit(345, "Assault ship", 0, 25, 4, 0, 16, 200, 175, 150, 10);
+
+
+                                /*  Addition of class objects to appropriate vectors  */
+
+    //Land units
+    LandUnit::land_units.push_back(militia);
+    LandUnit::land_units.push_back(cavalry);
+
+    LandUnit::land_units.push_back(infantry);
+    LandUnit::land_units.push_back(motorized_infantry);
+    LandUnit::land_units.push_back(mechanized_infantry);
+    LandUnit::land_units.push_back(mountain_infantry);
+    LandUnit::land_units.push_back(marine_infantry);
+    LandUnit::land_units.push_back(airborne_infantry);
+    LandUnit::land_units.push_back(elite_infantry);
+
+    LandUnit::land_units.push_back(artillery);
+    LandUnit::land_units.push_back(anti_tank);
+    LandUnit::land_units.push_back(anti_aircraft);
+
+    LandUnit::land_units.push_back(armoured_car);
+    LandUnit::land_units.push_back(light_tank);
+    LandUnit::land_units.push_back(medium_tank);
+    LandUnit::land_units.push_back(heavy_tank);
+    LandUnit::land_units.push_back(super_heavy_tank);
+    LandUnit::land_units.push_back(modern_tank);
+
+
+    //Air units
+    AirUnit::air_units.push_back(fighter);
+    AirUnit::air_units.push_back(close_air_support);
+    AirUnit::air_units.push_back(fighter_bomber);
+    AirUnit::air_units.push_back(rocket_interceptor);
+    AirUnit::air_units.push_back(jet_fighter);
+
+    AirUnit::air_units.push_back(carrier_fighter);
+    AirUnit::air_units.push_back(carrier_close_air_support);
+    AirUnit::air_units.push_back(carrier_naval_bomber);
+
+    AirUnit::air_units.push_back(tactical_bomber);
+    AirUnit::air_units.push_back(heavy_fighter);
+
+    AirUnit::air_units.push_back(strategic_bomber);
+    AirUnit::air_units.push_back(transport_plane);
+
+
+    //Naval units
+    NavalUnit::naval_units.push_back(convoy);
+    NavalUnit::naval_units.push_back(transport_ship);
+
+    NavalUnit::naval_units.push_back(torpedo_boat);
+    NavalUnit::naval_units.push_back(destroyer);
+    NavalUnit::naval_units.push_back(light_cruiser);
+
+    NavalUnit::naval_units.push_back(heavy_cruiser);
+    NavalUnit::naval_units.push_back(battleship);
+    NavalUnit::naval_units.push_back(battlecruiser);
+    NavalUnit::naval_units.push_back(super_heavy_battleship);
+
+    NavalUnit::naval_units.push_back(escort_carrier);
+    NavalUnit::naval_units.push_back(aircraft_carrier);
+
+    NavalUnit::naval_units.push_back(submarine);
+    NavalUnit::naval_units.push_back(landing_craft);
+    NavalUnit::naval_units.push_back(assault_ship);
+}
+

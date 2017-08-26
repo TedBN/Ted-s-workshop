@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/World_at_war.dir/sqlite3.c.o"
   "CMakeFiles/World_at_war.dir/Buildings.cpp.o"
   "CMakeFiles/World_at_war.dir/Technologies.cpp.o"
+  "CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.o"
   "World_at_war.pdb"
   "World_at_war.exe"
   "libWorld_at_war.dll.a"

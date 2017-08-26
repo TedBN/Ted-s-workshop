@@ -43,10 +43,10 @@ RM = /cygdrive/c/Users/persi/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/cygdrive/f/Personal projects/Europe at war v2"
+CMAKE_SOURCE_DIR = "/cygdrive/g/Personal projects/Europe at war v2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug"
+CMAKE_BINARY_DIR = "/cygdrive/g/Personal projects/Europe at war v2/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/World_at_war.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/World_at_war.dir/flags.make
 
 CMakeFiles/World_at_war.dir/main.cpp.o: CMakeFiles/World_at_war.dir/flags.make
 CMakeFiles/World_at_war.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/World_at_war.dir/main.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/World_at_war.dir/main.cpp.o -c "/cygdrive/f/Personal projects/Europe at war v2/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/g/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/World_at_war.dir/main.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/World_at_war.dir/main.cpp.o -c "/cygdrive/g/Personal projects/Europe at war v2/main.cpp"
 
 CMakeFiles/World_at_war.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/World_at_war.dir/main.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/f/Personal projects/Europe at war v2/main.cpp" > CMakeFiles/World_at_war.dir/main.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/g/Personal projects/Europe at war v2/main.cpp" > CMakeFiles/World_at_war.dir/main.cpp.i
 
 CMakeFiles/World_at_war.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/World_at_war.dir/main.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/f/Personal projects/Europe at war v2/main.cpp" -o CMakeFiles/World_at_war.dir/main.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/g/Personal projects/Europe at war v2/main.cpp" -o CMakeFiles/World_at_war.dir/main.cpp.s
 
 CMakeFiles/World_at_war.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/World_at_war.dir/main.cpp.o.provides.build: CMakeFiles/World_at_war.d
 
 CMakeFiles/World_at_war.dir/Controller.cpp.o: CMakeFiles/World_at_war.dir/flags.make
 CMakeFiles/World_at_war.dir/Controller.cpp.o: ../Controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/World_at_war.dir/Controller.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/World_at_war.dir/Controller.cpp.o -c "/cygdrive/f/Personal projects/Europe at war v2/Controller.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/g/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/World_at_war.dir/Controller.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/World_at_war.dir/Controller.cpp.o -c "/cygdrive/g/Personal projects/Europe at war v2/Controller.cpp"
 
 CMakeFiles/World_at_war.dir/Controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/World_at_war.dir/Controller.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/f/Personal projects/Europe at war v2/Controller.cpp" > CMakeFiles/World_at_war.dir/Controller.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/g/Personal projects/Europe at war v2/Controller.cpp" > CMakeFiles/World_at_war.dir/Controller.cpp.i
 
 CMakeFiles/World_at_war.dir/Controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/World_at_war.dir/Controller.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/f/Personal projects/Europe at war v2/Controller.cpp" -o CMakeFiles/World_at_war.dir/Controller.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/g/Personal projects/Europe at war v2/Controller.cpp" -o CMakeFiles/World_at_war.dir/Controller.cpp.s
 
 CMakeFiles/World_at_war.dir/Controller.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/World_at_war.dir/Controller.cpp.o.provides.build: CMakeFiles/World_at
 
 CMakeFiles/World_at_war.dir/sqlite3.c.o: CMakeFiles/World_at_war.dir/flags.make
 CMakeFiles/World_at_war.dir/sqlite3.c.o: ../sqlite3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/World_at_war.dir/sqlite3.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/World_at_war.dir/sqlite3.c.o   -c "/cygdrive/f/Personal projects/Europe at war v2/sqlite3.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/g/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/World_at_war.dir/sqlite3.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/World_at_war.dir/sqlite3.c.o   -c "/cygdrive/g/Personal projects/Europe at war v2/sqlite3.c"
 
 CMakeFiles/World_at_war.dir/sqlite3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/World_at_war.dir/sqlite3.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/cygdrive/f/Personal projects/Europe at war v2/sqlite3.c" > CMakeFiles/World_at_war.dir/sqlite3.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/cygdrive/g/Personal projects/Europe at war v2/sqlite3.c" > CMakeFiles/World_at_war.dir/sqlite3.c.i
 
 CMakeFiles/World_at_war.dir/sqlite3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/World_at_war.dir/sqlite3.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/cygdrive/f/Personal projects/Europe at war v2/sqlite3.c" -o CMakeFiles/World_at_war.dir/sqlite3.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/cygdrive/g/Personal projects/Europe at war v2/sqlite3.c" -o CMakeFiles/World_at_war.dir/sqlite3.c.s
 
 CMakeFiles/World_at_war.dir/sqlite3.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/World_at_war.dir/sqlite3.c.o.provides.build: CMakeFiles/World_at_war.
 
 CMakeFiles/World_at_war.dir/Buildings.cpp.o: CMakeFiles/World_at_war.dir/flags.make
 CMakeFiles/World_at_war.dir/Buildings.cpp.o: ../Buildings.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/World_at_war.dir/Buildings.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/World_at_war.dir/Buildings.cpp.o -c "/cygdrive/f/Personal projects/Europe at war v2/Buildings.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/g/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/World_at_war.dir/Buildings.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/World_at_war.dir/Buildings.cpp.o -c "/cygdrive/g/Personal projects/Europe at war v2/Buildings.cpp"
 
 CMakeFiles/World_at_war.dir/Buildings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/World_at_war.dir/Buildings.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/f/Personal projects/Europe at war v2/Buildings.cpp" > CMakeFiles/World_at_war.dir/Buildings.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/g/Personal projects/Europe at war v2/Buildings.cpp" > CMakeFiles/World_at_war.dir/Buildings.cpp.i
 
 CMakeFiles/World_at_war.dir/Buildings.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/World_at_war.dir/Buildings.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/f/Personal projects/Europe at war v2/Buildings.cpp" -o CMakeFiles/World_at_war.dir/Buildings.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/g/Personal projects/Europe at war v2/Buildings.cpp" -o CMakeFiles/World_at_war.dir/Buildings.cpp.s
 
 CMakeFiles/World_at_war.dir/Buildings.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/World_at_war.dir/Buildings.cpp.o.provides.build: CMakeFiles/World_at_
 
 CMakeFiles/World_at_war.dir/Technologies.cpp.o: CMakeFiles/World_at_war.dir/flags.make
 CMakeFiles/World_at_war.dir/Technologies.cpp.o: ../Technologies.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/World_at_war.dir/Technologies.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/World_at_war.dir/Technologies.cpp.o -c "/cygdrive/f/Personal projects/Europe at war v2/Technologies.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/g/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/World_at_war.dir/Technologies.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/World_at_war.dir/Technologies.cpp.o -c "/cygdrive/g/Personal projects/Europe at war v2/Technologies.cpp"
 
 CMakeFiles/World_at_war.dir/Technologies.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/World_at_war.dir/Technologies.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/f/Personal projects/Europe at war v2/Technologies.cpp" > CMakeFiles/World_at_war.dir/Technologies.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/g/Personal projects/Europe at war v2/Technologies.cpp" > CMakeFiles/World_at_war.dir/Technologies.cpp.i
 
 CMakeFiles/World_at_war.dir/Technologies.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/World_at_war.dir/Technologies.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/f/Personal projects/Europe at war v2/Technologies.cpp" -o CMakeFiles/World_at_war.dir/Technologies.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/g/Personal projects/Europe at war v2/Technologies.cpp" -o CMakeFiles/World_at_war.dir/Technologies.cpp.s
 
 CMakeFiles/World_at_war.dir/Technologies.cpp.o.requires:
 
@@ -177,13 +177,38 @@ CMakeFiles/World_at_war.dir/Technologies.cpp.o.provides: CMakeFiles/World_at_war
 CMakeFiles/World_at_war.dir/Technologies.cpp.o.provides.build: CMakeFiles/World_at_war.dir/Technologies.cpp.o
 
 
+CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.o: CMakeFiles/World_at_war.dir/flags.make
+CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.o: ../MilitaryObjects.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/g/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.o -c "/cygdrive/g/Personal projects/Europe at war v2/MilitaryObjects.cpp"
+
+CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/g/Personal projects/Europe at war v2/MilitaryObjects.cpp" > CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.i
+
+CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/g/Personal projects/Europe at war v2/MilitaryObjects.cpp" -o CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.s
+
+CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.o.requires:
+
+.PHONY : CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.o.requires
+
+CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.o.provides: CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.o.requires
+	$(MAKE) -f CMakeFiles/World_at_war.dir/build.make CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.o.provides.build
+.PHONY : CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.o.provides
+
+CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.o.provides.build: CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.o
+
+
 # Object files for target World_at_war
 World_at_war_OBJECTS = \
 "CMakeFiles/World_at_war.dir/main.cpp.o" \
 "CMakeFiles/World_at_war.dir/Controller.cpp.o" \
 "CMakeFiles/World_at_war.dir/sqlite3.c.o" \
 "CMakeFiles/World_at_war.dir/Buildings.cpp.o" \
-"CMakeFiles/World_at_war.dir/Technologies.cpp.o"
+"CMakeFiles/World_at_war.dir/Technologies.cpp.o" \
+"CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.o"
 
 # External object files for target World_at_war
 World_at_war_EXTERNAL_OBJECTS =
@@ -193,9 +218,10 @@ World_at_war.exe: CMakeFiles/World_at_war.dir/Controller.cpp.o
 World_at_war.exe: CMakeFiles/World_at_war.dir/sqlite3.c.o
 World_at_war.exe: CMakeFiles/World_at_war.dir/Buildings.cpp.o
 World_at_war.exe: CMakeFiles/World_at_war.dir/Technologies.cpp.o
+World_at_war.exe: CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.o
 World_at_war.exe: CMakeFiles/World_at_war.dir/build.make
 World_at_war.exe: CMakeFiles/World_at_war.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable World_at_war.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/g/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable World_at_war.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/World_at_war.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -208,6 +234,7 @@ CMakeFiles/World_at_war.dir/requires: CMakeFiles/World_at_war.dir/Controller.cpp
 CMakeFiles/World_at_war.dir/requires: CMakeFiles/World_at_war.dir/sqlite3.c.o.requires
 CMakeFiles/World_at_war.dir/requires: CMakeFiles/World_at_war.dir/Buildings.cpp.o.requires
 CMakeFiles/World_at_war.dir/requires: CMakeFiles/World_at_war.dir/Technologies.cpp.o.requires
+CMakeFiles/World_at_war.dir/requires: CMakeFiles/World_at_war.dir/MilitaryObjects.cpp.o.requires
 
 .PHONY : CMakeFiles/World_at_war.dir/requires
 
@@ -216,6 +243,6 @@ CMakeFiles/World_at_war.dir/clean:
 .PHONY : CMakeFiles/World_at_war.dir/clean
 
 CMakeFiles/World_at_war.dir/depend:
-	cd "/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/cygdrive/f/Personal projects/Europe at war v2" "/cygdrive/f/Personal projects/Europe at war v2" "/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug" "/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug" "/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles/World_at_war.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/cygdrive/g/Personal projects/Europe at war v2/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/cygdrive/g/Personal projects/Europe at war v2" "/cygdrive/g/Personal projects/Europe at war v2" "/cygdrive/g/Personal projects/Europe at war v2/cmake-build-debug" "/cygdrive/g/Personal projects/Europe at war v2/cmake-build-debug" "/cygdrive/g/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles/World_at_war.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/World_at_war.dir/depend
 

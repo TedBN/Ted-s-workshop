@@ -5,7 +5,7 @@
 #ifndef CONTROLLER_H
 #define CONTROLLER_H
 
-#include "Buildings.h"
+#include "MilitaryObjects.h"
 
 class Controller
 {
@@ -20,6 +20,7 @@ class Controller
     //Game-building functions
     static void create_technologies();
     static void create_buildings();
+    static void create_military_units();
 
     //Friend classes and functions
     friend int main();

@@ -54,10 +54,10 @@ RM = /cygdrive/c/Users/persi/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/cygdrive/f/Personal projects/Europe at war v2"
+CMAKE_SOURCE_DIR = "/cygdrive/g/Personal projects/Europe at war v2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug"
+CMAKE_BINARY_DIR = "/cygdrive/g/Personal projects/Europe at war v2/cmake-build-debug"
 
 #=============================================================================
 # Target rules for target CMakeFiles/World_at_war.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = "/cygdrive/f/Personal projects/Europe at war v2/cmake-build-d
 CMakeFiles/World_at_war.dir/all:
 	$(MAKE) -f CMakeFiles/World_at_war.dir/build.make CMakeFiles/World_at_war.dir/depend
 	$(MAKE) -f CMakeFiles/World_at_war.dir/build.make CMakeFiles/World_at_war.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target World_at_war"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/g/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6,7 "Built target World_at_war"
 .PHONY : CMakeFiles/World_at_war.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/World_at_war.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/World_at_war.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/g/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles" 7
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/World_at_war.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/f/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/g/Personal projects/Europe at war v2/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/World_at_war.dir/rule
 
 # Convenience name for target.

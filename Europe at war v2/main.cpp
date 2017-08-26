@@ -1,7 +1,6 @@
 #include <iostream>
 #include "MilitaryObjects.h"
 #include "Controller.h"
-#include "Countries.h"
 
 int main()
 {
@@ -16,6 +15,9 @@ int main()
 
     Controller::create_buildings();
     std::cout << "Buildings successfully created and set..." << std::endl;
+
+    Controller::create_military_units();
+    std::cout << "Military units successfully created and set..." << std::endl;
 
     return 0;
 }
