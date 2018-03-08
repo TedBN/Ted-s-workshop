@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/f/Personal projects/Europe at war v2.2/Building.cpp
+Building.h
+/cygdrive/f/Personal projects/Europe at war v2.2/Building.h
+
+/cygdrive/f/Personal projects/Europe at war v2.2/Building.h
+array
+-
+string
+-
+
+/cygdrive/f/Personal projects/Europe at war v2.2/BuildingController.cpp
+BuildingController.h
+/cygdrive/f/Personal projects/Europe at war v2.2/BuildingController.h
+
+/cygdrive/f/Personal projects/Europe at war v2.2/BuildingController.h
+vector
+-
+Building.h
+/cygdrive/f/Personal projects/Europe at war v2.2/Building.h
+
+/cygdrive/f/Personal projects/Europe at war v2.2/Technology.cpp
+Technology.h
+/cygdrive/f/Personal projects/Europe at war v2.2/Technology.h
+
+/cygdrive/f/Personal projects/Europe at war v2.2/Technology.h
+
+/cygdrive/f/Personal projects/Europe at war v2.2/TechnologyController.cpp
+
+/cygdrive/f/Personal projects/Europe at war v2.2/main.cpp
+iostream
+-
+
