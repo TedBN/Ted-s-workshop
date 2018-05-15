@@ -5,11 +5,11 @@
 #include "Building.h"
 
 //Definition for static integer
-int Building::buildingInstances = 1;
+int Building::buildingInstances = 201;
 
                                             /*      Constructors        */
 
-Building::Building() : id(0), name("None"), production_cost(0), energy_cost(0),
+Building::Building() : id(200), name("None"), production_cost(0), energy_cost(0),
                        metal_cost(0), rares_cost(0), maintenance(0)
 {
     /**  Default constructor. Used to represent empty slots in arrays and vectors.     */
@@ -19,7 +19,7 @@ Building::Building(std::string name, int cost, int eCost, int mCost, int rCost, 
                    id(Building::buildingInstances), name(std::move(name)), production_cost(cost),
                    energy_cost(eCost), metal_cost(mCost), rares_cost(rCost), maintenance(maintenance)
 {
-    /**  IDs for buildings are in the 1 to 100 range. Every turn a region generates production and it is
+    /**  IDs for buildings are in the 200 to 300 range. Every turn a region generates production and it is
       *  used to complete a selected unit or building. Production cost is the total number required for
       *  a building to be completed and functional. Resource costs deduct the specified resource upon
       *  starting production. Maintenance determines money spent on this building per turn.

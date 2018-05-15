@@ -1,0 +1,7 @@
+Changes for 15/05.2018 commit:
+- Changed entire program model, mainly due to big memory problems
+- Added revamped building class
+- Added functions to building controller class (not compileable yet!)
+- Added revamped technology class
+- Added revamped technology controller class (not compileable yet!)
+- Updated StarUML class diagram

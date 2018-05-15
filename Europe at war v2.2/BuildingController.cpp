@@ -30,8 +30,8 @@ void BuildingController::populateEducationList()
     educationBuildings.push_back(research_center);
 
     //Setter method calls
-    public_school.setPrerequisiteBuildings(university, empty);
-    research_center.setPrerequisiteBuildings(public_school, empty);
+    public_school.setPrerequisiteBuildings(university, emptyBuilding);
+    research_center.setPrerequisiteBuildings(public_school, emptyBuilding);
 }
 
 void BuildingController::populateMilitaryList()
@@ -53,8 +53,8 @@ void BuildingController::populateMilitaryList()
     militaryBuildings.push_back(airfield);
 
     //Setter method calls
-    military_academy.setPrerequisiteBuildings(barracks, empty);
-    military_base.setPrerequisiteBuildings(military_academy, empty);
+    military_academy.setPrerequisiteBuildings(barracks, emptyBuilding);
+    military_base.setPrerequisiteBuildings(military_academy, emptyBuilding);
 }
 
 void BuildingController::populateProductionList()
@@ -80,17 +80,17 @@ void BuildingController::populateProductionList()
     productionBuildings.push_back(shipyard);
 
     //Prerequisite buildings setter method calls
-    armour_factory.setPrerequisiteBuildings(factory, empty);
-    small_air_factory.setPrerequisiteBuildings(factory, empty);
-    medium_air_factory.setPrerequisiteBuildings(factory, empty);
-    large_air_factory.setPrerequisiteBuildings(factory, empty);
+    armour_factory.setPrerequisiteBuildings(factory, emptyBuilding);
+    small_air_factory.setPrerequisiteBuildings(factory, emptyBuilding);
+    medium_air_factory.setPrerequisiteBuildings(factory, emptyBuilding);
+    large_air_factory.setPrerequisiteBuildings(factory, emptyBuilding);
     shipyard.setPrerequisiteBuildings(factory, harbor);
 
     //Incompatible buildings setter method calls
     armour_factory.setIncompatibleBuildings(small_air_factory, medium_air_factory,  large_air_factory);
-    small_air_factory.setIncompatibleBuildings(armour_factory, large_air_factory, empty);
-    medium_air_factory.setIncompatibleBuildings(armour_factory, empty, empty);
-    large_air_factory.setIncompatibleBuildings(armour_factory, small_air_factory, empty);
+    small_air_factory.setIncompatibleBuildings(armour_factory, large_air_factory, emptyBuilding);
+    medium_air_factory.setIncompatibleBuildings(armour_factory, emptyBuilding, emptyBuilding);
+    large_air_factory.setIncompatibleBuildings(armour_factory, small_air_factory, emptyBuilding);
 }
 
 void BuildingController::populateResourceList()
@@ -125,5 +125,5 @@ void BuildingController::populateEconomicList()
     economicBuildings.push_back(stock_exchange);
 
     //Setter method calls
-    stock_exchange.setPrerequisiteBuildings(bank, empty);
+    stock_exchange.setPrerequisiteBuildings(bank, emptyBuilding);
 }

@@ -5,7 +5,6 @@
 #ifndef TECHNOLOGIES_H
 #define TECHNOLOGIES_H
 
-#include <iostream>
 #include <string>
 #include <array>
 
@@ -18,32 +17,37 @@ class Technology
       *  two constructors. Objects must be added to the appropriate static vector upon creation.
       *  Accessible to the main function, country, building and controller classes.                 */
 
-    //Static member
-    static int technologyInstances;
+    private:
 
-    //Members
-    std::string name;
-    int id;
-    int scienceCost;
-    int level;
-    std::array <std::pair, 5> techPrerequisites;
+        //Static member
+        static int technologyInstances;
 
-    //Setter function
-    void setPrerequisiteTechs(std::pair, std::pair, std::pair, std::pair, std::pair);
+        //Members
+        std::string name;
+        int id;
+        int scienceCost;
+        int currentLevel;
+        int maxLevel;
+        std::array <std::pair<int, int>, 5> techPrerequisites;
 
-    //Getter functions
-    int getId();
-    std::string getName();
-    int getLevel();
-    int getScienceCost();
-    int getMaxTechLevel();
+    public:
 
-    //Array getter function
-    std::array<std::pair, 5> getTechPrereqs();
+        //Setter function
+        void setPrerequisiteTechs(std::pair<int, int>, std::pair<int, int>, std::pair<int, int>,
+                                  std::pair<int, int>, std::pair<int, int>);
 
-    //Constructors
-    Technology ();
-    Technology (std::string, int, int);
+        //Getter functions
+        int getId();
+        std::string getName();
+        int getCurrentLevel();
+        int getMaxLevel();
+        int getScienceCost();
+        std::array<std::pair<int, int>, 5> getTechPrereqs();
+
+        //Constructors
+        Technology();
+        Technology(std::string, int);
+        Technology(std::string, int, int, int);
 };
 
 #endif //TECHNOLOGIES_H

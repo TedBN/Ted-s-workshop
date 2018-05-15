@@ -1,4 +1,4 @@
-C:\Users\persi\.CLion2017.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/cygdrive/f/Personal projects/Europe at war v2.2"
+C:\Users\persi\.CLion2018.1\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/cygdrive/f/Personal projects/Europe at war v2.2"
 -- The C compiler identification is GNU 5.4.0
 -- The CXX compiler identification is GNU 5.4.0
 -- Check for working C compiler: /usr/bin/cc

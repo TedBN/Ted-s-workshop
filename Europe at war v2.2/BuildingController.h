@@ -18,14 +18,14 @@ class BuildingController
     private:
 
         //Empty object
-        Building empty = Building();
+        Building emptyBuilding = Building();
 
         //Vector members
-        std::vector<Building> educationBuildings;
-        std::vector<Building> militaryBuildings;
-        std::vector<Building> productionBuildings;
-        std::vector<Building> resourceBuildings;
-        std::vector<Building> economicBuildings;
+        std::vector <Building> educationBuildings;
+        std::vector <Building> militaryBuildings;
+        std::vector <Building> productionBuildings;
+        std::vector <Building> resourceBuildings;
+        std::vector <Building> economicBuildings;
 
     public:
 
@@ -38,7 +38,6 @@ class BuildingController
         void populateProductionList();
         void populateResourceList();
         void populateEconomicList();
-
 };
 
 #endif //BUILDING_CONTROLLER_H

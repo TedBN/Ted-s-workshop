@@ -10,4 +10,5 @@ add_executable(Europe_at_war_v2_2 main.cpp
                Technology.h
                BuildingController.h
                TechnologyController.h
-               TechnologyController.cpp BuildingController.cpp)
+               TechnologyController.cpp
+               BuildingController.cpp)
