@@ -10,12 +10,11 @@
 
 class Technology
 {
-    /**  This class handles the technology objects to be used for the
-      *  research system and their characteristics. Contains members for costs,
-      *  levels for repeated techs and prerequisites, also static vectors to
-      *  track objects. Has a setter function for already existing objects and
-      *  two constructors. Objects must be added to the appropriate static vector upon creation.
-      *  Accessible to the main function, country, building and controller classes.                 */
+    /** This class handles the creation and data retrieval for individual technology
+      * objects. Contains three constructors, a static integer that tracks number of created
+      * objects, an array with their prerequisites and five other members. Vectors with all
+      * created objects are held in this class's respective controller and can be modified in
+      * bulk via it's functions. Part of the domain data layer.                                 */
 
     private:
 

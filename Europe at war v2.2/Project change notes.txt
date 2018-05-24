@@ -1,7 +1,21 @@
-Changes for 15/05.2018 commit:
+Changes for 15/05/2018 commit:
 - Changed entire program model, mainly due to big memory problems
 - Added revamped building class
 - Added functions to building controller class (not compileable yet!)
 - Added revamped technology class
 - Added revamped technology controller class (not compileable yet!)
 - Updated StarUML class diagram
+
+Changes for 24/05/2018 commit:
+- Updated StarUML class diagram
+- Finished population functions in Technology controllers
+- Updated documentation
+- Added constructor to Technology controller
+- Added getters for complete vectors to Technology and Building controllers
+- Added search functions for individual objects to Technology and Building controllers
+- Added technological prerequisites vector to Building controller and two associated methods
+- Added technology setter to building class
+
+Notes for next release:
+- Add spar torpedoes as prerequisites for torpedo boats OR rename current torpedo tech
+- Check tech prerequisites for other techs

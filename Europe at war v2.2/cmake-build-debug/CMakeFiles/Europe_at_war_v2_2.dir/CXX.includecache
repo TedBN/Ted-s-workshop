@@ -31,10 +31,28 @@ Technology.h
 /cygdrive/f/Personal projects/Europe at war v2.2/Technology.h
 
 /cygdrive/f/Personal projects/Europe at war v2.2/Technology.h
+string
+-
+array
+-
 
 /cygdrive/f/Personal projects/Europe at war v2.2/TechnologyController.cpp
+iostream
+-
+TechnologyController.h
+/cygdrive/f/Personal projects/Europe at war v2.2/TechnologyController.h
+
+/cygdrive/f/Personal projects/Europe at war v2.2/TechnologyController.h
+vector
+-
+Technology.h
+/cygdrive/f/Personal projects/Europe at war v2.2/Technology.h
 
 /cygdrive/f/Personal projects/Europe at war v2.2/main.cpp
 iostream
 -
+TechnologyController.h
+/cygdrive/f/Personal projects/Europe at war v2.2/TechnologyController.h
+BuildingController.h
+/cygdrive/f/Personal projects/Europe at war v2.2/BuildingController.h
 
