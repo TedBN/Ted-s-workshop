@@ -2,7 +2,6 @@
 // Created by Ted on 6/3/2018
 //
 
-#include <iostream>
 #include "TechnologyController.h"
 
 
@@ -113,7 +112,7 @@ int TechnologyController::findAircraftArnamentAndEngineTechnologyIdByName(const 
 
 int TechnologyController::findCarrerAircraftTechnologyIdByName(const std::string targetName)
 {
-    /** Searches for a caiier aircraft technology in the respective list via a string that contains the target
+    /** Searches for a carrier aircraft technology in the respective list via a string that contains the target
       * objects's name. Returns the matching building object's id if found, -1 if nothing is found.             */
 
     for ( Technology technology : carrierAircraftTechs )
@@ -713,8 +712,8 @@ void TechnologyController::populateAircraftArmamentAndEngineList()
             std::pair<int, int> ( emptyTechnology.getId(), -1 ),
             std::pair<int, int> ( emptyTechnology.getId(), -1));
 
-    jet_engine.setPrerequisiteTechs(
-            std::pair<int, int> (findJetEngineAndRocketTechnologyIdByName("Theoretical jet engine"), 1 ),
+    jet_engine.setPrerequisiteTechs (
+            std::pair<int, int> ( findJetEngineAndRocketTechnologyIdByName("Theoretical jet engine"), 1 ),
             std::pair<int, int> ( emptyTechnology.getId(), -1 ),
             std::pair<int, int> ( emptyTechnology.getId(), -1 ),
             std::pair<int, int> ( emptyTechnology.getId(), -1 ),

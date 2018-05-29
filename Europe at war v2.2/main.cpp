@@ -1,6 +1,7 @@
 #include <iostream>
 #include "TechnologyController.h"
 #include "BuildingController.h"
+#include "MilitaryUnitController.h"
 
 int main()
 {
@@ -50,6 +51,11 @@ int main()
     //Assign the prerequisites to correct buildings
     buildingController.setAllBuildingTechPrerequisites();
     std::cout << "Buildings initialized!" << std::endl << std::endl;
+
+    //Military controller is created
+    std::cout << "Military units initializing..." << std::endl;
+    MilitaryUnitController militaryUnitController = MilitaryUnitController();
+    std::cout << "Military units initialized!" << std::endl;
 
     return 0;
 }

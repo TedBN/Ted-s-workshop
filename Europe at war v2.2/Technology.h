@@ -19,7 +19,7 @@ class Technology
     private:
 
         //Static member
-        static int technologyInstances;
+        static int technologyInstanceIds;
 
         //Members
         std::string name;
@@ -27,7 +27,15 @@ class Technology
         int scienceCost;
         int currentLevel;
         int maxLevel;
-        std::array <std::pair<int, int>, 5> techPrerequisites;
+
+        //Array with prerequisites
+        std::array<std::pair<int, int>, 5> techPrerequisites =
+        std::array<std::pair<int, int>, 5>
+                { std::pair<int, int> { 0, -1 },
+                  std::pair<int, int> { 0, -1 },
+                  std::pair<int, int> { 0, -1 },
+                  std::pair<int, int> { 0, -1 },
+                  std::pair<int, int> { 0, -1 }, };
 
     public:
 

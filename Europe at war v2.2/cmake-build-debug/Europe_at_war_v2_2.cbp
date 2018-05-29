@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2.2/AbstractMilitaryUnit.cpp">
+			<Option target="Europe_at_war_v2_2"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2.2/AbstractMilitaryUnit.h">
+			<Option target="Europe_at_war_v2_2"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2.2/Army.cpp">
+			<Option target="Europe_at_war_v2_2"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2.2/Army.h">
+			<Option target="Europe_at_war_v2_2"/>
+		</Unit>
 		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2.2/Building.cpp">
 			<Option target="Europe_at_war_v2_2"/>
 		</Unit>
@@ -90,6 +102,30 @@
 			<Option target="Europe_at_war_v2_2"/>
 		</Unit>
 		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2.2/BuildingController.h">
+			<Option target="Europe_at_war_v2_2"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2.2/MilitaryUnitController.cpp">
+			<Option target="Europe_at_war_v2_2"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2.2/MilitaryUnitController.h">
+			<Option target="Europe_at_war_v2_2"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2.2/MilitaryUnitTypes.cpp">
+			<Option target="Europe_at_war_v2_2"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2.2/MilitaryUnitTypes.h">
+			<Option target="Europe_at_war_v2_2"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2.2/Region.cpp">
+			<Option target="Europe_at_war_v2_2"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2.2/Region.h">
+			<Option target="Europe_at_war_v2_2"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2.2/RegionController.cpp">
+			<Option target="Europe_at_war_v2_2"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2.2/RegionController.h">
 			<Option target="Europe_at_war_v2_2"/>
 		</Unit>
 		<Unit filename="/cygdrive/f/Personal projects/Europe at war v2.2/Technology.cpp">

@@ -123,6 +123,60 @@ Europe_at_war_v2_2/fast:
 	$(MAKE) -f CMakeFiles/Europe_at_war_v2_2.dir/build.make CMakeFiles/Europe_at_war_v2_2.dir/build
 .PHONY : Europe_at_war_v2_2/fast
 
+AbstractMilitaryUnit.o: AbstractMilitaryUnit.cpp.o
+
+.PHONY : AbstractMilitaryUnit.o
+
+# target to build an object file
+AbstractMilitaryUnit.cpp.o:
+	$(MAKE) -f CMakeFiles/Europe_at_war_v2_2.dir/build.make CMakeFiles/Europe_at_war_v2_2.dir/AbstractMilitaryUnit.cpp.o
+.PHONY : AbstractMilitaryUnit.cpp.o
+
+AbstractMilitaryUnit.i: AbstractMilitaryUnit.cpp.i
+
+.PHONY : AbstractMilitaryUnit.i
+
+# target to preprocess a source file
+AbstractMilitaryUnit.cpp.i:
+	$(MAKE) -f CMakeFiles/Europe_at_war_v2_2.dir/build.make CMakeFiles/Europe_at_war_v2_2.dir/AbstractMilitaryUnit.cpp.i
+.PHONY : AbstractMilitaryUnit.cpp.i
+
+AbstractMilitaryUnit.s: AbstractMilitaryUnit.cpp.s
+
+.PHONY : AbstractMilitaryUnit.s
+
+# target to generate assembly for a file
+AbstractMilitaryUnit.cpp.s:
+	$(MAKE) -f CMakeFiles/Europe_at_war_v2_2.dir/build.make CMakeFiles/Europe_at_war_v2_2.dir/AbstractMilitaryUnit.cpp.s
+.PHONY : AbstractMilitaryUnit.cpp.s
+
+Army.o: Army.cpp.o
+
+.PHONY : Army.o
+
+# target to build an object file
+Army.cpp.o:
+	$(MAKE) -f CMakeFiles/Europe_at_war_v2_2.dir/build.make CMakeFiles/Europe_at_war_v2_2.dir/Army.cpp.o
+.PHONY : Army.cpp.o
+
+Army.i: Army.cpp.i
+
+.PHONY : Army.i
+
+# target to preprocess a source file
+Army.cpp.i:
+	$(MAKE) -f CMakeFiles/Europe_at_war_v2_2.dir/build.make CMakeFiles/Europe_at_war_v2_2.dir/Army.cpp.i
+.PHONY : Army.cpp.i
+
+Army.s: Army.cpp.s
+
+.PHONY : Army.s
+
+# target to generate assembly for a file
+Army.cpp.s:
+	$(MAKE) -f CMakeFiles/Europe_at_war_v2_2.dir/build.make CMakeFiles/Europe_at_war_v2_2.dir/Army.cpp.s
+.PHONY : Army.cpp.s
+
 Building.o: Building.cpp.o
 
 .PHONY : Building.o
@@ -176,6 +230,114 @@ BuildingController.s: BuildingController.cpp.s
 BuildingController.cpp.s:
 	$(MAKE) -f CMakeFiles/Europe_at_war_v2_2.dir/build.make CMakeFiles/Europe_at_war_v2_2.dir/BuildingController.cpp.s
 .PHONY : BuildingController.cpp.s
+
+MilitaryUnitController.o: MilitaryUnitController.cpp.o
+
+.PHONY : MilitaryUnitController.o
+
+# target to build an object file
+MilitaryUnitController.cpp.o:
+	$(MAKE) -f CMakeFiles/Europe_at_war_v2_2.dir/build.make CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitController.cpp.o
+.PHONY : MilitaryUnitController.cpp.o
+
+MilitaryUnitController.i: MilitaryUnitController.cpp.i
+
+.PHONY : MilitaryUnitController.i
+
+# target to preprocess a source file
+MilitaryUnitController.cpp.i:
+	$(MAKE) -f CMakeFiles/Europe_at_war_v2_2.dir/build.make CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitController.cpp.i
+.PHONY : MilitaryUnitController.cpp.i
+
+MilitaryUnitController.s: MilitaryUnitController.cpp.s
+
+.PHONY : MilitaryUnitController.s
+
+# target to generate assembly for a file
+MilitaryUnitController.cpp.s:
+	$(MAKE) -f CMakeFiles/Europe_at_war_v2_2.dir/build.make CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitController.cpp.s
+.PHONY : MilitaryUnitController.cpp.s
+
+MilitaryUnitTypes.o: MilitaryUnitTypes.cpp.o
+
+.PHONY : MilitaryUnitTypes.o
+
+# target to build an object file
+MilitaryUnitTypes.cpp.o:
+	$(MAKE) -f CMakeFiles/Europe_at_war_v2_2.dir/build.make CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitTypes.cpp.o
+.PHONY : MilitaryUnitTypes.cpp.o
+
+MilitaryUnitTypes.i: MilitaryUnitTypes.cpp.i
+
+.PHONY : MilitaryUnitTypes.i
+
+# target to preprocess a source file
+MilitaryUnitTypes.cpp.i:
+	$(MAKE) -f CMakeFiles/Europe_at_war_v2_2.dir/build.make CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitTypes.cpp.i
+.PHONY : MilitaryUnitTypes.cpp.i
+
+MilitaryUnitTypes.s: MilitaryUnitTypes.cpp.s
+
+.PHONY : MilitaryUnitTypes.s
+
+# target to generate assembly for a file
+MilitaryUnitTypes.cpp.s:
+	$(MAKE) -f CMakeFiles/Europe_at_war_v2_2.dir/build.make CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitTypes.cpp.s
+.PHONY : MilitaryUnitTypes.cpp.s
+
+Region.o: Region.cpp.o
+
+.PHONY : Region.o
+
+# target to build an object file
+Region.cpp.o:
+	$(MAKE) -f CMakeFiles/Europe_at_war_v2_2.dir/build.make CMakeFiles/Europe_at_war_v2_2.dir/Region.cpp.o
+.PHONY : Region.cpp.o
+
+Region.i: Region.cpp.i
+
+.PHONY : Region.i
+
+# target to preprocess a source file
+Region.cpp.i:
+	$(MAKE) -f CMakeFiles/Europe_at_war_v2_2.dir/build.make CMakeFiles/Europe_at_war_v2_2.dir/Region.cpp.i
+.PHONY : Region.cpp.i
+
+Region.s: Region.cpp.s
+
+.PHONY : Region.s
+
+# target to generate assembly for a file
+Region.cpp.s:
+	$(MAKE) -f CMakeFiles/Europe_at_war_v2_2.dir/build.make CMakeFiles/Europe_at_war_v2_2.dir/Region.cpp.s
+.PHONY : Region.cpp.s
+
+RegionController.o: RegionController.cpp.o
+
+.PHONY : RegionController.o
+
+# target to build an object file
+RegionController.cpp.o:
+	$(MAKE) -f CMakeFiles/Europe_at_war_v2_2.dir/build.make CMakeFiles/Europe_at_war_v2_2.dir/RegionController.cpp.o
+.PHONY : RegionController.cpp.o
+
+RegionController.i: RegionController.cpp.i
+
+.PHONY : RegionController.i
+
+# target to preprocess a source file
+RegionController.cpp.i:
+	$(MAKE) -f CMakeFiles/Europe_at_war_v2_2.dir/build.make CMakeFiles/Europe_at_war_v2_2.dir/RegionController.cpp.i
+.PHONY : RegionController.cpp.i
+
+RegionController.s: RegionController.cpp.s
+
+.PHONY : RegionController.s
+
+# target to generate assembly for a file
+RegionController.cpp.s:
+	$(MAKE) -f CMakeFiles/Europe_at_war_v2_2.dir/build.make CMakeFiles/Europe_at_war_v2_2.dir/RegionController.cpp.s
+.PHONY : RegionController.cpp.s
 
 Technology.o: Technology.cpp.o
 
@@ -267,12 +429,30 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Europe_at_war_v2_2"
+	@echo "... AbstractMilitaryUnit.o"
+	@echo "... AbstractMilitaryUnit.i"
+	@echo "... AbstractMilitaryUnit.s"
+	@echo "... Army.o"
+	@echo "... Army.i"
+	@echo "... Army.s"
 	@echo "... Building.o"
 	@echo "... Building.i"
 	@echo "... Building.s"
 	@echo "... BuildingController.o"
 	@echo "... BuildingController.i"
 	@echo "... BuildingController.s"
+	@echo "... MilitaryUnitController.o"
+	@echo "... MilitaryUnitController.i"
+	@echo "... MilitaryUnitController.s"
+	@echo "... MilitaryUnitTypes.o"
+	@echo "... MilitaryUnitTypes.i"
+	@echo "... MilitaryUnitTypes.s"
+	@echo "... Region.o"
+	@echo "... Region.i"
+	@echo "... Region.s"
+	@echo "... RegionController.o"
+	@echo "... RegionController.i"
+	@echo "... RegionController.s"
 	@echo "... Technology.o"
 	@echo "... Technology.i"
 	@echo "... Technology.s"

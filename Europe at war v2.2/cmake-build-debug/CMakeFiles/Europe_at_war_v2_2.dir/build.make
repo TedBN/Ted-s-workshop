@@ -177,13 +177,163 @@ CMakeFiles/Europe_at_war_v2_2.dir/BuildingController.cpp.o.provides: CMakeFiles/
 CMakeFiles/Europe_at_war_v2_2.dir/BuildingController.cpp.o.provides.build: CMakeFiles/Europe_at_war_v2_2.dir/BuildingController.cpp.o
 
 
+CMakeFiles/Europe_at_war_v2_2.dir/AbstractMilitaryUnit.cpp.o: CMakeFiles/Europe_at_war_v2_2.dir/flags.make
+CMakeFiles/Europe_at_war_v2_2.dir/AbstractMilitaryUnit.cpp.o: ../AbstractMilitaryUnit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Personal projects/Europe at war v2.2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Europe_at_war_v2_2.dir/AbstractMilitaryUnit.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Europe_at_war_v2_2.dir/AbstractMilitaryUnit.cpp.o -c "/cygdrive/f/Personal projects/Europe at war v2.2/AbstractMilitaryUnit.cpp"
+
+CMakeFiles/Europe_at_war_v2_2.dir/AbstractMilitaryUnit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Europe_at_war_v2_2.dir/AbstractMilitaryUnit.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/f/Personal projects/Europe at war v2.2/AbstractMilitaryUnit.cpp" > CMakeFiles/Europe_at_war_v2_2.dir/AbstractMilitaryUnit.cpp.i
+
+CMakeFiles/Europe_at_war_v2_2.dir/AbstractMilitaryUnit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Europe_at_war_v2_2.dir/AbstractMilitaryUnit.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/f/Personal projects/Europe at war v2.2/AbstractMilitaryUnit.cpp" -o CMakeFiles/Europe_at_war_v2_2.dir/AbstractMilitaryUnit.cpp.s
+
+CMakeFiles/Europe_at_war_v2_2.dir/AbstractMilitaryUnit.cpp.o.requires:
+
+.PHONY : CMakeFiles/Europe_at_war_v2_2.dir/AbstractMilitaryUnit.cpp.o.requires
+
+CMakeFiles/Europe_at_war_v2_2.dir/AbstractMilitaryUnit.cpp.o.provides: CMakeFiles/Europe_at_war_v2_2.dir/AbstractMilitaryUnit.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Europe_at_war_v2_2.dir/build.make CMakeFiles/Europe_at_war_v2_2.dir/AbstractMilitaryUnit.cpp.o.provides.build
+.PHONY : CMakeFiles/Europe_at_war_v2_2.dir/AbstractMilitaryUnit.cpp.o.provides
+
+CMakeFiles/Europe_at_war_v2_2.dir/AbstractMilitaryUnit.cpp.o.provides.build: CMakeFiles/Europe_at_war_v2_2.dir/AbstractMilitaryUnit.cpp.o
+
+
+CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitController.cpp.o: CMakeFiles/Europe_at_war_v2_2.dir/flags.make
+CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitController.cpp.o: ../MilitaryUnitController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Personal projects/Europe at war v2.2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitController.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitController.cpp.o -c "/cygdrive/f/Personal projects/Europe at war v2.2/MilitaryUnitController.cpp"
+
+CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitController.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/f/Personal projects/Europe at war v2.2/MilitaryUnitController.cpp" > CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitController.cpp.i
+
+CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitController.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/f/Personal projects/Europe at war v2.2/MilitaryUnitController.cpp" -o CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitController.cpp.s
+
+CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitController.cpp.o.requires:
+
+.PHONY : CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitController.cpp.o.requires
+
+CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitController.cpp.o.provides: CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitController.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Europe_at_war_v2_2.dir/build.make CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitController.cpp.o.provides.build
+.PHONY : CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitController.cpp.o.provides
+
+CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitController.cpp.o.provides.build: CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitController.cpp.o
+
+
+CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitTypes.cpp.o: CMakeFiles/Europe_at_war_v2_2.dir/flags.make
+CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitTypes.cpp.o: ../MilitaryUnitTypes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Personal projects/Europe at war v2.2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitTypes.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitTypes.cpp.o -c "/cygdrive/f/Personal projects/Europe at war v2.2/MilitaryUnitTypes.cpp"
+
+CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitTypes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitTypes.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/f/Personal projects/Europe at war v2.2/MilitaryUnitTypes.cpp" > CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitTypes.cpp.i
+
+CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitTypes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitTypes.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/f/Personal projects/Europe at war v2.2/MilitaryUnitTypes.cpp" -o CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitTypes.cpp.s
+
+CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitTypes.cpp.o.requires:
+
+.PHONY : CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitTypes.cpp.o.requires
+
+CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitTypes.cpp.o.provides: CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitTypes.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Europe_at_war_v2_2.dir/build.make CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitTypes.cpp.o.provides.build
+.PHONY : CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitTypes.cpp.o.provides
+
+CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitTypes.cpp.o.provides.build: CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitTypes.cpp.o
+
+
+CMakeFiles/Europe_at_war_v2_2.dir/Army.cpp.o: CMakeFiles/Europe_at_war_v2_2.dir/flags.make
+CMakeFiles/Europe_at_war_v2_2.dir/Army.cpp.o: ../Army.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Personal projects/Europe at war v2.2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Europe_at_war_v2_2.dir/Army.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Europe_at_war_v2_2.dir/Army.cpp.o -c "/cygdrive/f/Personal projects/Europe at war v2.2/Army.cpp"
+
+CMakeFiles/Europe_at_war_v2_2.dir/Army.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Europe_at_war_v2_2.dir/Army.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/f/Personal projects/Europe at war v2.2/Army.cpp" > CMakeFiles/Europe_at_war_v2_2.dir/Army.cpp.i
+
+CMakeFiles/Europe_at_war_v2_2.dir/Army.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Europe_at_war_v2_2.dir/Army.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/f/Personal projects/Europe at war v2.2/Army.cpp" -o CMakeFiles/Europe_at_war_v2_2.dir/Army.cpp.s
+
+CMakeFiles/Europe_at_war_v2_2.dir/Army.cpp.o.requires:
+
+.PHONY : CMakeFiles/Europe_at_war_v2_2.dir/Army.cpp.o.requires
+
+CMakeFiles/Europe_at_war_v2_2.dir/Army.cpp.o.provides: CMakeFiles/Europe_at_war_v2_2.dir/Army.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Europe_at_war_v2_2.dir/build.make CMakeFiles/Europe_at_war_v2_2.dir/Army.cpp.o.provides.build
+.PHONY : CMakeFiles/Europe_at_war_v2_2.dir/Army.cpp.o.provides
+
+CMakeFiles/Europe_at_war_v2_2.dir/Army.cpp.o.provides.build: CMakeFiles/Europe_at_war_v2_2.dir/Army.cpp.o
+
+
+CMakeFiles/Europe_at_war_v2_2.dir/Region.cpp.o: CMakeFiles/Europe_at_war_v2_2.dir/flags.make
+CMakeFiles/Europe_at_war_v2_2.dir/Region.cpp.o: ../Region.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Personal projects/Europe at war v2.2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Europe_at_war_v2_2.dir/Region.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Europe_at_war_v2_2.dir/Region.cpp.o -c "/cygdrive/f/Personal projects/Europe at war v2.2/Region.cpp"
+
+CMakeFiles/Europe_at_war_v2_2.dir/Region.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Europe_at_war_v2_2.dir/Region.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/f/Personal projects/Europe at war v2.2/Region.cpp" > CMakeFiles/Europe_at_war_v2_2.dir/Region.cpp.i
+
+CMakeFiles/Europe_at_war_v2_2.dir/Region.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Europe_at_war_v2_2.dir/Region.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/f/Personal projects/Europe at war v2.2/Region.cpp" -o CMakeFiles/Europe_at_war_v2_2.dir/Region.cpp.s
+
+CMakeFiles/Europe_at_war_v2_2.dir/Region.cpp.o.requires:
+
+.PHONY : CMakeFiles/Europe_at_war_v2_2.dir/Region.cpp.o.requires
+
+CMakeFiles/Europe_at_war_v2_2.dir/Region.cpp.o.provides: CMakeFiles/Europe_at_war_v2_2.dir/Region.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Europe_at_war_v2_2.dir/build.make CMakeFiles/Europe_at_war_v2_2.dir/Region.cpp.o.provides.build
+.PHONY : CMakeFiles/Europe_at_war_v2_2.dir/Region.cpp.o.provides
+
+CMakeFiles/Europe_at_war_v2_2.dir/Region.cpp.o.provides.build: CMakeFiles/Europe_at_war_v2_2.dir/Region.cpp.o
+
+
+CMakeFiles/Europe_at_war_v2_2.dir/RegionController.cpp.o: CMakeFiles/Europe_at_war_v2_2.dir/flags.make
+CMakeFiles/Europe_at_war_v2_2.dir/RegionController.cpp.o: ../RegionController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Personal projects/Europe at war v2.2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Europe_at_war_v2_2.dir/RegionController.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Europe_at_war_v2_2.dir/RegionController.cpp.o -c "/cygdrive/f/Personal projects/Europe at war v2.2/RegionController.cpp"
+
+CMakeFiles/Europe_at_war_v2_2.dir/RegionController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Europe_at_war_v2_2.dir/RegionController.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/f/Personal projects/Europe at war v2.2/RegionController.cpp" > CMakeFiles/Europe_at_war_v2_2.dir/RegionController.cpp.i
+
+CMakeFiles/Europe_at_war_v2_2.dir/RegionController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Europe_at_war_v2_2.dir/RegionController.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/f/Personal projects/Europe at war v2.2/RegionController.cpp" -o CMakeFiles/Europe_at_war_v2_2.dir/RegionController.cpp.s
+
+CMakeFiles/Europe_at_war_v2_2.dir/RegionController.cpp.o.requires:
+
+.PHONY : CMakeFiles/Europe_at_war_v2_2.dir/RegionController.cpp.o.requires
+
+CMakeFiles/Europe_at_war_v2_2.dir/RegionController.cpp.o.provides: CMakeFiles/Europe_at_war_v2_2.dir/RegionController.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Europe_at_war_v2_2.dir/build.make CMakeFiles/Europe_at_war_v2_2.dir/RegionController.cpp.o.provides.build
+.PHONY : CMakeFiles/Europe_at_war_v2_2.dir/RegionController.cpp.o.provides
+
+CMakeFiles/Europe_at_war_v2_2.dir/RegionController.cpp.o.provides.build: CMakeFiles/Europe_at_war_v2_2.dir/RegionController.cpp.o
+
+
 # Object files for target Europe_at_war_v2_2
 Europe_at_war_v2_2_OBJECTS = \
 "CMakeFiles/Europe_at_war_v2_2.dir/main.cpp.o" \
 "CMakeFiles/Europe_at_war_v2_2.dir/Building.cpp.o" \
 "CMakeFiles/Europe_at_war_v2_2.dir/Technology.cpp.o" \
 "CMakeFiles/Europe_at_war_v2_2.dir/TechnologyController.cpp.o" \
-"CMakeFiles/Europe_at_war_v2_2.dir/BuildingController.cpp.o"
+"CMakeFiles/Europe_at_war_v2_2.dir/BuildingController.cpp.o" \
+"CMakeFiles/Europe_at_war_v2_2.dir/AbstractMilitaryUnit.cpp.o" \
+"CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitController.cpp.o" \
+"CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitTypes.cpp.o" \
+"CMakeFiles/Europe_at_war_v2_2.dir/Army.cpp.o" \
+"CMakeFiles/Europe_at_war_v2_2.dir/Region.cpp.o" \
+"CMakeFiles/Europe_at_war_v2_2.dir/RegionController.cpp.o"
 
 # External object files for target Europe_at_war_v2_2
 Europe_at_war_v2_2_EXTERNAL_OBJECTS =
@@ -193,9 +343,15 @@ Europe_at_war_v2_2.exe: CMakeFiles/Europe_at_war_v2_2.dir/Building.cpp.o
 Europe_at_war_v2_2.exe: CMakeFiles/Europe_at_war_v2_2.dir/Technology.cpp.o
 Europe_at_war_v2_2.exe: CMakeFiles/Europe_at_war_v2_2.dir/TechnologyController.cpp.o
 Europe_at_war_v2_2.exe: CMakeFiles/Europe_at_war_v2_2.dir/BuildingController.cpp.o
+Europe_at_war_v2_2.exe: CMakeFiles/Europe_at_war_v2_2.dir/AbstractMilitaryUnit.cpp.o
+Europe_at_war_v2_2.exe: CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitController.cpp.o
+Europe_at_war_v2_2.exe: CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitTypes.cpp.o
+Europe_at_war_v2_2.exe: CMakeFiles/Europe_at_war_v2_2.dir/Army.cpp.o
+Europe_at_war_v2_2.exe: CMakeFiles/Europe_at_war_v2_2.dir/Region.cpp.o
+Europe_at_war_v2_2.exe: CMakeFiles/Europe_at_war_v2_2.dir/RegionController.cpp.o
 Europe_at_war_v2_2.exe: CMakeFiles/Europe_at_war_v2_2.dir/build.make
 Europe_at_war_v2_2.exe: CMakeFiles/Europe_at_war_v2_2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/f/Personal projects/Europe at war v2.2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Europe_at_war_v2_2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/f/Personal projects/Europe at war v2.2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Europe_at_war_v2_2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Europe_at_war_v2_2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -208,6 +364,12 @@ CMakeFiles/Europe_at_war_v2_2.dir/requires: CMakeFiles/Europe_at_war_v2_2.dir/Bu
 CMakeFiles/Europe_at_war_v2_2.dir/requires: CMakeFiles/Europe_at_war_v2_2.dir/Technology.cpp.o.requires
 CMakeFiles/Europe_at_war_v2_2.dir/requires: CMakeFiles/Europe_at_war_v2_2.dir/TechnologyController.cpp.o.requires
 CMakeFiles/Europe_at_war_v2_2.dir/requires: CMakeFiles/Europe_at_war_v2_2.dir/BuildingController.cpp.o.requires
+CMakeFiles/Europe_at_war_v2_2.dir/requires: CMakeFiles/Europe_at_war_v2_2.dir/AbstractMilitaryUnit.cpp.o.requires
+CMakeFiles/Europe_at_war_v2_2.dir/requires: CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitController.cpp.o.requires
+CMakeFiles/Europe_at_war_v2_2.dir/requires: CMakeFiles/Europe_at_war_v2_2.dir/MilitaryUnitTypes.cpp.o.requires
+CMakeFiles/Europe_at_war_v2_2.dir/requires: CMakeFiles/Europe_at_war_v2_2.dir/Army.cpp.o.requires
+CMakeFiles/Europe_at_war_v2_2.dir/requires: CMakeFiles/Europe_at_war_v2_2.dir/Region.cpp.o.requires
+CMakeFiles/Europe_at_war_v2_2.dir/requires: CMakeFiles/Europe_at_war_v2_2.dir/RegionController.cpp.o.requires
 
 .PHONY : CMakeFiles/Europe_at_war_v2_2.dir/requires
 

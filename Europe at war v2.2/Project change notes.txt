@@ -16,6 +16,12 @@ Changes for 24/05/2018 commit:
 - Added technological prerequisites vector to Building controller and two associated methods
 - Added technology setter to building class
 
+Changes for 29/05/2018 commit:
+- Updated members that contain IDs from a different object to initialize with 0 or -1
+- Added four military classes for domain data layer
+- Added military controller class for game logic layer
+- Updated StarUML diagram
+
 Notes for next release:
 - Add spar torpedoes as prerequisites for torpedo boats OR rename current torpedo tech
 - Check tech prerequisites for other techs

@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/cygdrive/f/Personal projects/Europe at war v2.2/AbstractMilitaryUnit.cpp
+AbstractMilitaryUnit.h
+/cygdrive/f/Personal projects/Europe at war v2.2/AbstractMilitaryUnit.h
+
+/cygdrive/f/Personal projects/Europe at war v2.2/AbstractMilitaryUnit.h
+string
+-
+array
+-
+
+/cygdrive/f/Personal projects/Europe at war v2.2/Army.cpp
+Army.h
+/cygdrive/f/Personal projects/Europe at war v2.2/Army.h
+
+/cygdrive/f/Personal projects/Europe at war v2.2/Army.h
+
 /cygdrive/f/Personal projects/Europe at war v2.2/Building.cpp
 Building.h
 /cygdrive/f/Personal projects/Europe at war v2.2/Building.h
@@ -26,6 +42,34 @@ vector
 Building.h
 /cygdrive/f/Personal projects/Europe at war v2.2/Building.h
 
+/cygdrive/f/Personal projects/Europe at war v2.2/MilitaryUnitController.cpp
+MilitaryUnitController.h
+/cygdrive/f/Personal projects/Europe at war v2.2/MilitaryUnitController.h
+
+/cygdrive/f/Personal projects/Europe at war v2.2/MilitaryUnitController.h
+vector
+-
+MilitaryUnitTypes.h
+/cygdrive/f/Personal projects/Europe at war v2.2/MilitaryUnitTypes.h
+
+/cygdrive/f/Personal projects/Europe at war v2.2/MilitaryUnitTypes.cpp
+MilitaryUnitTypes.h
+/cygdrive/f/Personal projects/Europe at war v2.2/MilitaryUnitTypes.h
+utility
+-
+
+/cygdrive/f/Personal projects/Europe at war v2.2/MilitaryUnitTypes.h
+AbstractMilitaryUnit.h
+/cygdrive/f/Personal projects/Europe at war v2.2/AbstractMilitaryUnit.h
+
+/cygdrive/f/Personal projects/Europe at war v2.2/Region.cpp
+
+/cygdrive/f/Personal projects/Europe at war v2.2/RegionController.cpp
+RegionController.h
+/cygdrive/f/Personal projects/Europe at war v2.2/RegionController.h
+
+/cygdrive/f/Personal projects/Europe at war v2.2/RegionController.h
+
 /cygdrive/f/Personal projects/Europe at war v2.2/Technology.cpp
 Technology.h
 /cygdrive/f/Personal projects/Europe at war v2.2/Technology.h
@@ -37,8 +81,6 @@ array
 -
 
 /cygdrive/f/Personal projects/Europe at war v2.2/TechnologyController.cpp
-iostream
--
 TechnologyController.h
 /cygdrive/f/Personal projects/Europe at war v2.2/TechnologyController.h
 
@@ -55,4 +97,6 @@ TechnologyController.h
 /cygdrive/f/Personal projects/Europe at war v2.2/TechnologyController.h
 BuildingController.h
 /cygdrive/f/Personal projects/Europe at war v2.2/BuildingController.h
+MilitaryUnitController.h
+/cygdrive/f/Personal projects/Europe at war v2.2/MilitaryUnitController.h
 

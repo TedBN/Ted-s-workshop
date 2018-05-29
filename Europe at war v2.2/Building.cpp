@@ -5,7 +5,7 @@
 #include "Building.h"
 
 //Definition for static integer
-int Building::buildingInstances = 201;
+int Building::buildingInstanceIds = 201;
 
 
                                             /*      Constructors        */
@@ -17,13 +17,13 @@ Building::Building() : id(200), name("None"), productionCost(0), energyCost(0),
 }
 
 Building::Building(std::string name, int cost, int eCost, int mCost, int rCost, int maintenance) :
-                   id(Building::buildingInstances), name(std::move(name)), productionCost(cost),
+                   id(Building::buildingInstanceIds), name(std::move(name)), productionCost(cost),
                    energyCost(eCost), metalCost(mCost), raresCost(rCost), maintenance(maintenance)
 {
     /**  IDs for buildings are in the 200 to 300 range. This constructor takes arguments for everything except
       *  the prerequisite integers and two building arrays, they are handled by the respective setters.         */
 
-    ++Building::buildingInstances;
+    ++Building::buildingInstanceIds;
 }
 
 

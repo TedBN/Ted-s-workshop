@@ -19,7 +19,7 @@ class Building
     private:
 
         //Static member
-        static int buildingInstances;
+        static int buildingInstanceIds;
 
         //Members
         std::string name;
@@ -31,12 +31,12 @@ class Building
         int maintenance;
 
         //Members with technology object IDs
-        int prerequisiteTechId;
-        int prerequisiteTechLevel;
+        int prerequisiteTechId = 0;
+        int prerequisiteTechLevel = -1;
 
         //Arrays with IDs and their defaults
-        std::array<int, 2> prerequisiteBuildings;
-        std::array<int, 3> incompatibleBuildings;
+        std::array<int, 2> prerequisiteBuildings = std::array<int, 2> { 0, 0 };
+        std::array<int, 3> incompatibleBuildings = std::array<int, 3> { 0, 0, 0 };
 
     public:
 
