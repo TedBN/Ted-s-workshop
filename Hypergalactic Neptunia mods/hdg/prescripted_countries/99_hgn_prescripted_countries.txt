@@ -1,0 +1,868 @@
+planeptuneNeptuneHD = {
+
+	## Hyperdimension Neptune's Planeptune ##
+
+	name = "planeptuneNeptuneHD"
+	adjective = "PRESCRIPTED_adjective_planeptuneNeptuneHD"
+	spawn_enabled = yes # yes / no / always
+	
+	ship_prefix = "PRESCRIPTED_ship_prefix_planeptuneNeptuneHD"
+	
+	species = {
+		class = "HGN"
+		portrait = "planeptuneHD"
+		name = "PRESCRIPTED_species_name_planeptuneNeptuneHD"
+		plural = "PRESCRIPTED_species_plural_planeptuneNeptuneHD"
+		adjective = "PRESCRIPTED_species_adjective_planeptuneNeptuneHD"
+		name_list = "MAM1"
+		trait = "trait_strong"
+		trait = "trait_resilient"
+		trait = "trait_rapid_breeders"
+		trait = "trait_decadent"
+		trait = "trait_quarrelsome"
+	}
+	
+	room = "personality_planeptune_hyperdimension_cpu_room"
+	
+	authority = "auth_hgn_cpu_empire"
+	civics = { "civic_police_state" "civic_slaver_guilds" }
+	government = gov_gameindustri_empire
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_fanatic_militarist"
+	
+	planet_name = "PRESCRIPTED_planet_name_planeptuneNeptuneHD"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_planeptuneNeptuneHD"
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+	
+		icon = {
+			category = "neptunia"
+			file = "flag_neptunia_1.dds"
+		}
+		
+		background = {
+			category = "backgrounds"
+			file = "00_solid_reversed.dds"
+		}
+		
+		colors = {
+			"purple"
+			"white"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_planeptuneNeptuneHD"
+		portrait = "neptune"
+		leader_class = ruler
+	}	
+}
+
+planeptuneNepgearHD = {
+
+	## Nepgear's Planeptune ##
+
+	name = "planeptuneNepgearHD"
+	adjective = "PRESCRIPTED_adjective_planeptuneNepgearHD"
+	spawn_enabled = yes # yes / no / always
+	
+	ship_prefix = "PRESCRIPTED_ship_prefix_planeptuneNepgearHD"
+	
+	species = {
+		class = "HGN"
+		portrait = "planeptuneHD"
+		name = "PRESCRIPTED_species_name_planeptuneNepgearHD"
+		plural = "PRESCRIPTED_species_plural_planeptuneNepgearHD"
+		adjective = "PRESCRIPTED_species_adjective_planeptuneNepgearHD"
+		name_list = "MAM1"
+		trait = "trait_intelligent"
+		trait = "trait_quick_learners"
+		trait = "trait_deviants"
+	}
+	
+	room = "personality_planeptune_hyperdimension_cpu_room"
+	
+	authority = "auth_hgn_cpu_empire"
+	civics = { "civic_technocracy" "civic_mechanists" }
+	government = gov_gameindustri_empire
+
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_fanatic_materialist"
+	
+	planet_name = "PRESCRIPTED_planet_name_planeptuneNepgearHD"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_planeptuneNepgearHD"
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+	
+		icon = {
+			category = "neptunia"
+			file = "flag_neptunia_2.dds"
+		}
+		
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		
+		colors = {
+			"white"
+			"purple"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_planeptuneNepgearHD"
+		portrait = "nepgear"
+		leader_class = ruler
+	}	
+}
+
+planeptunePlutiaUD = {
+
+	## Plutia's Planeptune ##
+
+	name = "planeptunePlutiaUD"
+	adjective = "PRESCRIPTED_adjective_planeptunePlutiaUD"
+	spawn_enabled = yes # yes / no / always
+	
+	ship_prefix = "PRESCRIPTED_ship_prefix_planeptunePlutiaUD"
+	
+	species = {
+		class = "HGN"
+		portrait = "planeptuneUD"
+		name = "PRESCRIPTED_species_name_planeptunePlutiaUD"
+		plural = "PRESCRIPTED_species_plural_planeptunePlutiaUD"
+		adjective = "PRESCRIPTED_species_adjective_planeptunePlutiaUD"
+		name_list = "MAM1"
+		trait = "trait_strong"
+		trait = "trait_resilient"
+		trait = "trait_rapid_breeders"
+		trait = "trait_decadent"
+		trait = "trait_quarrelsome"
+	}
+	
+	room = "personality_planeptune_ultradimension_cpu_room"
+	
+	authority = "auth_hgn_cpu_empire"
+	civics = { "civic_police_state" "civic_slaver_guilds" }
+	government = gov_gameindustri_empire
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_fanatic_militarist"
+	
+	planet_name = "PRESCRIPTED_planet_name_planeptunePlutiaUD"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_planeptunePlutiaUD"
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+	
+		icon = {
+			category = "neptunia"
+			file = "flag_neptunia_3.dds"
+		}
+		
+		background = {
+			category = "backgrounds"
+			file = "00_solid_reversed.dds"
+		}
+		
+		colors = {
+			"purple"
+			"lighter_blue"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_planeptunePlutiaUD"
+		portrait = "plutia"
+		leader_class = ruler
+	}	
+}
+
+lastationNoireHD = {
+
+	## Hyperdimension Noire's Lastation ##
+
+	name = "lastationNoireHD"
+	adjective = "PRESCRIPTED_adjective_lastationNoireHD"
+	spawn_enabled = yes # yes / no / always
+	
+	ship_prefix = "PRESCRIPTED_ship_prefix_lastationNoireHD"
+	
+	species = {
+		class = "HGN"
+		portrait = "lastationHD"
+		name = "PRESCRIPTED_species_name_lastationNoireHD"
+		plural = "PRESCRIPTED_species_plural_lastationNoireHD"
+		adjective = "PRESCRIPTED_species_adjective_lastationNoireHD"
+		name_list = "MAM1"
+		trait = "trait_strong"
+		trait = "trait_resilient"
+		trait = "trait_rapid_breeders"
+		trait = "trait_decadent"
+		trait = "trait_quarrelsome"
+	}
+	
+	room = "personality_lastation_hyperdimension_cpu_room"
+	
+	authority = "auth_hgn_cpu_empire"
+	civics = { "civic_police_state" "civic_slaver_guilds" }
+	government = gov_gameindustri_empire
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_fanatic_militarist"
+	
+	planet_name = "PRESCRIPTED_planet_name_lastationNoireHD"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_lastationNoireHD"
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+	
+		icon = {
+			category = "neptunia"
+			file = "flag_neptunia_6.dds"
+		}
+		
+		background = {
+			category = "backgrounds"
+			file = "00_solid_reversed.dds"
+		}
+		
+		colors = {
+			"dark_blue"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_lastationNoireHD"
+		portrait = "noireHD"
+		leader_class = ruler
+	}	
+}
+
+lastationUniHD = {
+
+	## Uni's Lastation ##
+
+	name = "lastationUniHD"
+	adjective = "PRESCRIPTED_adjective_lastationUniHD"
+	spawn_enabled = yes # yes / no / always
+	
+	ship_prefix = "PRESCRIPTED_ship_prefix_lastationUniHD"
+	
+	species = {
+		class = "HGN"
+		portrait = "lastationHD"
+		name = "PRESCRIPTED_species_name_lastationUniHD"
+		plural = "PRESCRIPTED_species_plural_lastationUniHD"
+		adjective = "PRESCRIPTED_species_adjective_lastationUniHD"
+		name_list = "MAM1"
+		trait = "trait_strong"
+		trait = "trait_resilient"
+		trait = "trait_rapid_breeders"
+		trait = "trait_decadent"
+		trait = "trait_quarrelsome"
+	}
+	
+	room = "personality_lastation_hyperdimension_cpu_candidate_room"
+	
+	authority = "auth_hgn_cpu_empire"
+	civics = { "civic_police_state" "civic_slaver_guilds" }
+	government = gov_gameindustri_empire
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_fanatic_militarist"
+	
+	planet_name = "PRESCRIPTED_planet_name_lastationUniHD"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_lastationUniHD"
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+	
+		icon = {
+			category = "neptunia"
+			file = "flag_neptunia_5.dds"
+		}
+		
+		background = {
+			category = "backgrounds"
+			file = "00_solid_reversed.dds"
+		}
+		
+		colors = {
+			"dark_blue"
+			"light_grey"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_lastationUniHD"
+		portrait = "uni"
+		leader_class = ruler
+	}	
+}
+
+lastationNoireUD = {
+
+	## Ultradimension Noire's Lastation ##
+
+	name = "lastationNoireUD"
+	adjective = "PRESCRIPTED_adjective_lastationNoireUD"
+	spawn_enabled = yes # yes / no / always
+	
+	ship_prefix = "PRESCRIPTED_ship_prefix_lastationNoireUD"
+	
+	species = {
+		class = "HGN"
+		portrait = "lastationUD"
+		name = "PRESCRIPTED_species_name_lastationNoireUD"
+		plural = "PRESCRIPTED_species_plural_lastationNoireUD"
+		adjective = "PRESCRIPTED_species_adjective_lastationNoireUD"
+		name_list = "MAM1"
+		trait = "trait_strong"
+		trait = "trait_resilient"
+		trait = "trait_rapid_breeders"
+		trait = "trait_decadent"
+		trait = "trait_quarrelsome"
+	}
+	
+	room = "personality_lastation_ultradimension_cpu_room"
+	
+	authority = "auth_hgn_cpu_empire"
+	civics = { "civic_police_state" "civic_slaver_guilds" }
+	government = gov_gameindustri_empire
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_fanatic_militarist"
+	
+	planet_name = "PRESCRIPTED_planet_name_lastationNoireUD"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_lastationNoireUD"
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+	
+		icon = {
+			category = "neptunia"
+			file = "flag_neptunia_4.dds"
+		}
+		
+		background = {
+			category = "backgrounds"
+			file = "00_solid_reversed.dds"
+		}
+		
+		colors = {
+			"dark_blue"
+			"indigo"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_lastationNoireUD"
+		portrait = "noireUD"
+		leader_class = ruler
+	}	
+}
+
+leanboxVertHD = {
+
+	## Hyperdimension Vert's Leanbox ##
+
+	name = "leanboxVertHD"
+	adjective = "PRESCRIPTED_adjective_leanboxVertHD"
+	spawn_enabled = yes # yes / no / always
+	
+	ship_prefix = "PRESCRIPTED_ship_prefix_leanboxVertHD"
+	
+	species = {
+		class = "HGN"
+		portrait = "leanboxHD"
+		name = "PRESCRIPTED_species_name_leanboxVertHD"
+		plural = "PRESCRIPTED_species_plural_leanboxVertHD"
+		adjective = "PRESCRIPTED_species_adjective_leanboxVertHD"
+		name_list = "MAM1"
+		trait = "trait_strong"
+		trait = "trait_resilient"
+		trait = "trait_rapid_breeders"
+		trait = "trait_decadent"
+		trait = "trait_quarrelsome"
+	}
+	
+	room = "personality_leanbox_hyperdimension_cpu_room"
+	
+	authority = "auth_hgn_cpu_empire"
+	civics = { "civic_police_state" "civic_slaver_guilds" }
+	government = gov_gameindustri_empire
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_fanatic_militarist"
+	
+	planet_name = "PRESCRIPTED_planet_name_leanboxVertHD"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_leanboxVertHD"
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+	
+		icon = {
+			category = "neptunia"
+			file = "flag_neptunia_8.dds"
+		}
+		
+		background = {
+			category = "backgrounds"
+			file = "00_solid_reversed.dds"
+		}
+		
+		colors = {
+			"white"
+			"light_green"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_leanboxVertHD"
+		portrait = "vertHD"
+		leader_class = ruler
+	}	
+}
+
+leanboxVertUD = {
+
+	## Ultradimension Vert's Leanbox ##
+
+	name = "leanboxVertUD"
+	adjective = "PRESCRIPTED_adjective_leanboxVertUD"
+	spawn_enabled = yes # yes / no / always
+	
+	ship_prefix = "PRESCRIPTED_ship_prefix_leanboxVertUD"
+	
+	species = {
+		class = "HGN"
+		portrait = "leanboxUD"
+		name = "PRESCRIPTED_species_name_leanboxVertUD"
+		plural = "PRESCRIPTED_species_plural_leanboxVertUD"
+		adjective = "PRESCRIPTED_species_adjective_leanboxVertUD"
+		name_list = "MAM1"
+		trait = "trait_strong"
+		trait = "trait_resilient"
+		trait = "trait_rapid_breeders"
+		trait = "trait_decadent"
+		trait = "trait_quarrelsome"
+	}
+	
+	room = "personality_leanbox_ultradimension_cpu_room"
+	
+	authority = "auth_hgn_cpu_empire"
+	civics = { "civic_police_state" "civic_slaver_guilds" }
+	government = gov_gameindustri_empire
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_fanatic_militarist"
+	
+	planet_name = "PRESCRIPTED_planet_name_leanboxVertUD"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_leanboxVertUD"
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+	
+		icon = {
+			category = "neptunia"
+			file = "flag_neptunia_7.dds"
+		}
+		
+		background = {
+			category = "backgrounds"
+			file = "00_solid_reversed.dds"
+		}
+		
+		colors = {
+			"grey"
+			"dark_green"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_leanboxVertUD"
+		portrait = "vertUD"
+		leader_class = ruler
+	}	
+}
+
+loweeBlancHD = {
+
+	## Hyperdimension Blanc's Lowee ##
+
+	name = "loweeBlancHD"
+	adjective = "PRESCRIPTED_adjective_loweeBlancHD"
+	spawn_enabled = yes # yes / no / always
+	
+	ship_prefix = "PRESCRIPTED_ship_prefix_loweeBlancHD"
+	
+	species = {
+		class = "HGN"
+		portrait = "loweeHD"
+		name = "PRESCRIPTED_species_name_loweeBlancHD"
+		plural = "PRESCRIPTED_species_plural_loweeBlancHD"
+		adjective = "PRESCRIPTED_species_adjective_loweeBlancHD"
+		name_list = "MAM1"
+		trait = "trait_strong"
+		trait = "trait_resilient"
+		trait = "trait_rapid_breeders"
+		trait = "trait_decadent"
+		trait = "trait_quarrelsome"
+	}
+	
+	room = "personality_lowee_hyperdimension_cpu_room"
+	
+	authority = "auth_hgn_cpu_empire"
+	civics = { "civic_police_state" "civic_slaver_guilds" }
+	government = gov_gameindustri_empire
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_fanatic_militarist"
+	
+	planet_name = "PRESCRIPTED_planet_name_loweeBlancHD"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_loweeBlancHD"
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+	
+		icon = {
+			category = "neptunia"
+			file = "flag_neptunia_9.dds"
+		}
+		
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		
+		colors = {
+			"lighter_blue"
+			"white"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_loweeBlancHD"
+		portrait = "blancHD"
+		leader_class = ruler
+	}	
+}
+
+loweeTwinsHD = {
+
+	## Twin Sister's Lowee ##
+
+	name = "loweeTwinsHD"
+	adjective = "PRESCRIPTED_adjective_loweeTwinsHD"
+	spawn_enabled = yes # yes / no / always
+	
+	ship_prefix = "PRESCRIPTED_ship_prefix_loweeTwinsHD"
+	
+	species = {
+		class = "HGN"
+		portrait = "loweeHD"
+		name = "PRESCRIPTED_species_name_loweeTwinsHD"
+		plural = "PRESCRIPTED_species_plural_loweeTwinsHD"
+		adjective = "PRESCRIPTED_species_adjective_loweeTwinsHD"
+		name_list = "MAM1"
+		trait = "trait_strong"
+		trait = "trait_resilient"
+		trait = "trait_rapid_breeders"
+		trait = "trait_decadent"
+		trait = "trait_quarrelsome"
+	}
+	
+	room = "personality_lowee_hyperdimension_cpu_candidate_room"
+	
+	authority = "auth_hgn_cpu_empire"
+	civics = { "civic_police_state" "civic_slaver_guilds" }
+	government = gov_gameindustri_empire
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_fanatic_militarist"
+	
+	planet_name = "PRESCRIPTED_planet_name_loweeTwinsHD"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_loweeTwinsHD"
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+	
+		icon = {
+			category = "neptunia"
+			file = "flag_neptunia_10.dds"
+		}
+		
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		
+		colors = {
+			"light_blue"
+			"light_pink"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_loweeTwinsHD"
+		portrait = "ram"
+		leader_class = ruler
+	}	
+}
+
+loweeBlancUD = {
+
+	## Ultradimension Blanc's Lowee ##
+
+	name = "loweeBlancUD"
+	adjective = "PRESCRIPTED_adjective_loweeBlancUD"
+	spawn_enabled = yes # yes / no / always
+	
+	ship_prefix = "PRESCRIPTED_ship_prefix_loweeTwinsHD"
+	
+	species = {
+		class = "HGN"
+		portrait = "loweeUD"
+		name = "PRESCRIPTED_species_name_loweeBlancUD"
+		plural = "PRESCRIPTED_species_plural_loweeBlancUD"
+		adjective = "PRESCRIPTED_species_adjective_loweeBlancUD"
+		name_list = "MAM1"
+		trait = "trait_strong"
+		trait = "trait_resilient"
+		trait = "trait_rapid_breeders"
+		trait = "trait_decadent"
+		trait = "trait_quarrelsome"
+	}
+	
+	room = "personality_lowee_ultradimension_cpu_room"
+	
+	authority = "auth_hgn_cpu_empire"
+	civics = { "civic_police_state" "civic_slaver_guilds" }
+	government = gov_gameindustri_empire
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_fanatic_militarist"
+	
+	planet_name = "PRESCRIPTED_planet_name_loweeBlancUD"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_loweeBlancUD"
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+	
+		icon = {
+			category = "neptunia"
+			file = "flag_neptunia_11.dds"
+		}
+		
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		
+		colors = {
+			"white"
+			"light_red"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_loweeBlancUD"
+		portrait = "blancUD"
+		leader_class = ruler
+	}	
+}
+
+#criminalsHD = {
+#
+#	## ASIC ##
+#
+#	name = "criminalsHD"
+#	adjective = "PRESCRIPTED_adjective_criminalsHD"
+#	spawn_enabled = yes # yes / no / always
+#	
+#	ship_prefix = "PRESCRIPTED_ship_prefix_criminalsHD"
+#	
+#	species = {
+#		class = "HGN"
+#		portrait = "criminalsHD"
+#		name = "PRESCRIPTED_species_name_criminalsHD"
+#		plural = "PRESCRIPTED_species_plural_criminalsHD"
+#		adjective = "PRESCRIPTED_species_adjective_criminalsHD"
+#		name_list = "MAM1"
+#		trait = "trait_strong"
+#		trait = "trait_resilient"
+#		trait = "trait_rapid_breeders"
+#		trait = "trait_decadent"
+#		trait = "trait_quarrelsome"
+#	}
+#	
+#	room = "personality_criminal_hyperdimension_leader_room"
+#	
+#	authority = "auth_hgn_cpu_empire"
+#	civics = { "civic_police_state" "civic_slaver_guilds" }
+#	government = gov_star_empire
+#
+#	ethic = "ethic_authoritarian"
+#	ethic = "ethic_fanatic_militarist"
+#	
+#	planet_name = "PRESCRIPTED_planet_name_criminalsHD"
+#	planet_class = "pc_continental"
+#	system_name = "PRESCRIPTED_system_name_criminalsHD"
+#	
+#	graphical_culture = "mammalian_01"
+#	city_graphical_culture = "mammalian_01"
+#	
+#	empire_flag = {
+#	
+#		icon = {
+#			category = "neptunia"
+#			file = "flag_neptunia_1.dds"
+#		}
+#		
+#		background = {
+#			category = "backgrounds"
+#			file = "00_solid_reversed.dds"
+#		}
+#		
+#		colors = {
+#			"purple"
+#			"white"
+#			"null"
+#			"null"
+#		}
+#	}
+#	
+#	ruler = {
+#		name = "PRESCRIPTED_ruler_name_criminalsHD"
+#		portrait = "arfoire"
+#		leader_class = ruler
+#	}	
+#}
+
+#criminalsUD = {
+#
+#	## The Seven Sages ##
+#
+#	name = "criminalsUD"
+#	adjective = "PRESCRIPTED_adjective_criminalsUD"
+#	spawn_enabled = yes # yes / no / always
+#	
+#	ship_prefix = "PRESCRIPTED_ship_prefix_criminalsUD"
+#	
+#	species = {
+#		class = "HGN"
+#		portrait = "criminalsUD"
+#		name = "PRESCRIPTED_species_name_criminalsUD"
+#		plural = "PRESCRIPTED_species_plural_criminalsUD"
+#		adjective = "PRESCRIPTED_species_adjective_criminalsUD"
+#		name_list = "MAM1"
+#		trait = "trait_strong"
+#		trait = "trait_resilient"
+#		trait = "trait_rapid_breeders"
+#		trait = "trait_decadent"
+#		trait = "trait_quarrelsome"
+#	}
+#	
+#	room = "personality_criminal_ultradimension_leader_room"
+#	
+#	authority = "auth_hgn_cpu_empire"
+#	civics = { "civic_police_state" "civic_slaver_guilds" }
+#	government = gov_star_empire
+#
+#	ethic = "ethic_authoritarian"
+#	ethic = "ethic_fanatic_militarist"
+#	
+#	planet_name = "PRESCRIPTED_planet_name_criminalsUD"
+#	planet_class = "pc_continental"
+#	system_name = "PRESCRIPTED_system_name_criminalsUD"
+#	
+#	graphical_culture = "mammalian_01"
+#	city_graphical_culture = "mammalian_01"
+#	
+#	empire_flag = {
+#	
+#		icon = {
+#			category = "neptunia"
+#			file = "flag_neptunia_1.dds"
+#		}
+#		
+#		background = {
+#			category = "backgrounds"
+#			file = "00_solid_reversed.dds"
+#		}
+#		
+#		colors = {
+#			"purple"
+#			"white"
+#			"null"
+#			"null"
+#		}
+#	}
+#	
+#	ruler = {
+#		name = "PRESCRIPTED_ruler_name_criminalsUD"
+#		portrait = "anonydeath"
+#		leader_class = ruler
+#	}	
+#}

@@ -1,0 +1,294 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	## RULERS ##
+	neptune = { texturefile = "gfx/models/portraits/neptune.dds" }
+	nepgear = { texturefile = "gfx/models/portraits/nepgear.dds" }
+	plutia = { texturefile = "gfx/models/portraits/plutia.dds" }
+	noireHD = { texturefile = "gfx/models/portraits/noireHD.dds" }
+	uni = { texturefile = "gfx/models/portraits/uni.dds" }
+	noireUD = { texturefile = "gfx/models/portraits/noireUD.dds" }
+	vertHD = { texturefile = "gfx/models/portraits/vertHD.dds" }
+	vertUD = { texturefile = "gfx/models/portraits/vertUD.dds" }
+	blancHD = { texturefile = "gfx/models/portraits/blancHD.dds" }
+	rom = { texturefile = "gfx/models/portraits/rom.dds" }
+	ram = { texturefile = "gfx/models/portraits/ram.dds" }
+	blancUD = { texturefile = "gfx/models/portraits/blancUD.dds" }
+	arfoire = { texturefile = "gfx/models/portraits/arfoire.dds" }
+	anonydeath = { texturefile = "gfx/models/portraits/anonydeath.dds" }
+	
+	## LEADERS ##
+	
+	
+	## POPS ##
+	2ddude = { texturefile = "gfx/models/portraits/2ddude.dds" }
+	cat = { texturefile = "gfx/models/portraits/cat.dds" }
+	chiba = { texturefile = "gfx/models/portraits/chiba.dds" }
+	dbag = { texturefile = "gfx/models/portraits/dbag.dds" }
+	glassesgirl = { texturefile = "gfx/models/portraits/glassesgirl.dds" }
+	kangaroo = { texturefile = "gfx/models/portraits/kangaroo.dds" }
+	mrbill = { texturefile = "gfx/models/portraits/mrbill.dds" }
+	mreno = { texturefile = "gfx/models/portraits/mreno.dds" }
+	msmanual = { texturefile = "gfx/models/portraits/msmanual.dds" }
+	nepfcchairman = { texturefile = "gfx/models/portraits/nepfcchairman.dds" }
+	nepfcvicechairman = { texturefile = "gfx/models/portraits/nepfcvicechairman.dds" }
+	nepugia = { texturefile = "gfx/models/portraits/nepugia.dds" }
+	saturnshiro = { texturefile = "gfx/models/portraits/saturnshiro.dds" }
+	sirtoichi = { texturefile = "gfx/models/portraits/sirtoichi.dds" }
+	veterancreator = { texturefile = "gfx/models/portraits/veterancreator.dds" }
+}
+
+portrait_groups = {
+
+	planeptuneHD = {
+	
+		default = neptune
+		
+		# Add portraits to empire menu
+		game_setup = {
+			add = {
+				portraits = {
+					neptune
+					nepgear
+				}
+			}
+		}
+		
+		# Add to species scope(whatever that does)
+		species = {
+			set = {
+				portraits = {
+					neptune
+					nepgear
+				}
+			}
+		}
+		
+		# Field for pop sprites
+		pop = {
+			add = {
+				portraits = {
+					2ddude
+					cat
+					chiba
+					dbag
+					glassesgirl
+					kangaroo
+					mrbill
+					mreno
+					msmanual
+					nepfcchairman
+					nepfcvicechairman
+					nepugia
+					saturnshiro
+					sirtoichi
+					veterancreator
+				}
+			}
+		}
+	}
+	
+	planeptuneUD = {
+	
+		default = plutia
+		
+		game_setup = {
+			add = {
+				portraits = {
+					plutia
+				}
+			}
+		}
+		
+		species = {
+			set = {
+				portraits = {
+					plutia
+				}
+			}
+		}
+	}
+	
+	lastationHD = {
+	
+		default = noireHD
+		
+		game_setup = {
+			add = {
+				portraits = {
+					noireHD
+					uni
+				}
+			}
+		}
+		
+		species = {
+			set = {
+				portraits = {
+					noireHD
+					uni
+				}
+			}
+		}
+	}
+	
+	lastationUD = {
+	
+		default = noireUD
+		
+		game_setup = {
+			add = {
+				portraits = {
+					noireUD
+				}
+			}
+		}
+		
+		species = {
+			set = {
+				portraits = {
+					noireUD
+				}
+			}
+		}
+	}
+	
+	leanboxHD = {
+	
+		default = vertHD
+		
+		game_setup = {
+			add = {
+				portraits = {
+					vertHD
+				}
+			}
+		}
+		
+		species = {
+			set = {
+				portraits = {
+					vertHD
+				}
+			}
+		}
+	}
+	
+	leanboxUD = {
+	
+		default = vertUD
+		
+		game_setup = {
+			add = {
+				portraits = {
+					vertUD
+				}
+			}
+		}
+		
+		species = {
+			set = {
+				portraits = {
+					vertUD
+				}
+			}
+		}
+	}
+	
+	loweeHD = {
+	
+		default = blancHD
+		
+		game_setup = {
+			add = {
+				portraits = {
+					blancHD
+					rom
+					ram
+				}
+			}
+		}
+		
+		species = {
+			set = {
+				portraits = {
+					blancHD
+					rom
+					ram
+				}
+			}
+		}
+	}
+	
+	loweeUD = {
+	
+		default = blancUD
+		
+		game_setup = {
+			add = {
+				portraits = {
+					blancUD
+				}
+			}
+		}
+		
+		species = {
+			set = {
+				portraits = {
+					blancUD
+				}
+			}
+		}
+	}
+	
+	criminalsHD = {
+	
+		default = arfoire
+		
+		game_setup = {
+			add = {
+				portraits = {
+					arfoire
+				}
+			}
+		}
+		
+		species = {
+			set = {
+				portraits = {
+					arfoire
+				}
+			}
+		}
+	}
+	
+	criminalsUD = {
+	
+		default = anonydeath
+		
+		game_setup = {
+			add = {
+				portraits = {
+					anonydeath
+				}
+			}
+		}
+		
+		species = {
+			set = {
+				portraits = {
+					anonydeath
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,42 @@
+﻿l_english:
+
+ ####################################
+ # Portrait group
+ ####################################
+ 
+ HGN: "Neptunia"
+ 
+ #####################################
+ # Empire names
+ ####################################
+ 
+ planeptuneNeptuneHD: "Hyperdimension Planeptune"
+ planeptuneNepgearHD: "Hyperdimension Planeptune mk2"
+ planeptunePlutiaUD: "Ultradimension Planeptune"
+ lastationNoireHD: "Hyperdimension Lastation"
+ lastationUniHD: "Hyperdimension Lastation mk2"
+ lastationNoireUD: "Ultradimension Lastation"
+ leanboxVertHD: "Hyperdimension Leanbox"
+ leanboxVertUD: "Ultradimension Leanbox"
+ loweeBlancHD: "Hyperdimension Lowee"
+ loweeTwinsHD: "Hyperdimension Lowee mk2"
+ loweeBlancUD: "Ultradimension Lowee"
+ 
+ #####################################
+ # Government authorities
+ ####################################
+ 
+ auth_hgn_cpu_empire:0 "CPU Mandate"
+ auth_hgn_cpu_empire_desc:0 "A star empire ruled by an immortal goddess known as a Console Patron Unit."
+ auth_hgn_criminal_empire:0 "Digital Piracy Syndicate"
+ AUTHORITY_HAS_SHARES:0 "Allows use of the Shares as strategic resources. A low Share count will result in penalties for the empire and bonuses for a high Share count. Share gain is based on number of Game Developer pops in the empire compared to those in other Gameindustri Empires."
+ AUTHORITY_HAS_GAME_DEVELOPMENT_STRATUM:1 "Enables the Game Developer stratum on planets. Pops working jobs in this stratum generate Unity, Consumer Goods and Shares. Jobs in this stratum are Artist, Programmer, Designer and Tester."
+ 
+ gov_gameindustri_empire:0 "Gameindustri Empire"
+ gov_gameindustri_empire_desc:0 "This star empire is ruled by a CPU, who protects and and ensures its' prosperity. Through fulfilling their duty they gain the faith of their people, which manifest as Shares. The empire's CPU requires Shares to maintain their position and immortality. There exist a finite number of Shares and all Gameindustri empires compete with each other to earn them."
+ 
+ ####################################
+ # Rulers
+ ####################################
+
+ RT_CPU:0 "CPU"
