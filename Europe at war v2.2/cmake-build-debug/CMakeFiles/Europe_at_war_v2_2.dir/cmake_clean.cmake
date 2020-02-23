@@ -10,6 +10,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Europe_at_war_v2_2.dir/Army.cpp.o"
   "CMakeFiles/Europe_at_war_v2_2.dir/Region.cpp.o"
   "CMakeFiles/Europe_at_war_v2_2.dir/RegionController.cpp.o"
+  "CMakeFiles/Europe_at_war_v2_2.dir/Country.cpp.o"
+  "CMakeFiles/Europe_at_war_v2_2.dir/GameController.cpp.o"
   "Europe_at_war_v2_2.pdb"
   "Europe_at_war_v2_2.exe"
   "libEurope_at_war_v2_2.dll.a"

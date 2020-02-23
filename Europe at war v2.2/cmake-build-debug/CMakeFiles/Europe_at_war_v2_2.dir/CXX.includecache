@@ -6,97 +6,131 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/f/Personal projects/Europe at war v2.2/AbstractMilitaryUnit.cpp
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/AbstractMilitaryUnit.cpp
 AbstractMilitaryUnit.h
-/cygdrive/f/Personal projects/Europe at war v2.2/AbstractMilitaryUnit.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/AbstractMilitaryUnit.h
 
-/cygdrive/f/Personal projects/Europe at war v2.2/AbstractMilitaryUnit.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/AbstractMilitaryUnit.h
 string
 -
 array
 -
 
-/cygdrive/f/Personal projects/Europe at war v2.2/Army.cpp
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/Army.cpp
 Army.h
-/cygdrive/f/Personal projects/Europe at war v2.2/Army.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/Army.h
 
-/cygdrive/f/Personal projects/Europe at war v2.2/Army.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/Army.h
 
-/cygdrive/f/Personal projects/Europe at war v2.2/Building.cpp
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/Building.cpp
 Building.h
-/cygdrive/f/Personal projects/Europe at war v2.2/Building.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/Building.h
 
-/cygdrive/f/Personal projects/Europe at war v2.2/Building.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/Building.h
 array
 -
 string
 -
 
-/cygdrive/f/Personal projects/Europe at war v2.2/BuildingController.cpp
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/BuildingController.cpp
 BuildingController.h
-/cygdrive/f/Personal projects/Europe at war v2.2/BuildingController.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/BuildingController.h
 
-/cygdrive/f/Personal projects/Europe at war v2.2/BuildingController.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/BuildingController.h
 vector
 -
 Building.h
-/cygdrive/f/Personal projects/Europe at war v2.2/Building.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/Building.h
 
-/cygdrive/f/Personal projects/Europe at war v2.2/MilitaryUnitController.cpp
-MilitaryUnitController.h
-/cygdrive/f/Personal projects/Europe at war v2.2/MilitaryUnitController.h
-
-/cygdrive/f/Personal projects/Europe at war v2.2/MilitaryUnitController.h
-vector
--
-MilitaryUnitTypes.h
-/cygdrive/f/Personal projects/Europe at war v2.2/MilitaryUnitTypes.h
-
-/cygdrive/f/Personal projects/Europe at war v2.2/MilitaryUnitTypes.cpp
-MilitaryUnitTypes.h
-/cygdrive/f/Personal projects/Europe at war v2.2/MilitaryUnitTypes.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/Country.cpp
+Country.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/Country.h
 utility
 -
 
-/cygdrive/f/Personal projects/Europe at war v2.2/MilitaryUnitTypes.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/Country.h
+string
+-
+vector
+-
+
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/GameController.cpp
+GameController.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/GameController.h
+
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/GameController.h
+Country.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/Country.h
+
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/MilitaryUnitController.cpp
+MilitaryUnitController.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/MilitaryUnitController.h
+
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/MilitaryUnitController.h
+vector
+-
+MilitaryUnitTypes.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/MilitaryUnitTypes.h
+
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/MilitaryUnitTypes.cpp
+MilitaryUnitTypes.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/MilitaryUnitTypes.h
+utility
+-
+
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/MilitaryUnitTypes.h
 AbstractMilitaryUnit.h
-/cygdrive/f/Personal projects/Europe at war v2.2/AbstractMilitaryUnit.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/AbstractMilitaryUnit.h
 
-/cygdrive/f/Personal projects/Europe at war v2.2/Region.cpp
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/Region.cpp
+Region.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/Region.h
+utility
+-
 
-/cygdrive/f/Personal projects/Europe at war v2.2/RegionController.cpp
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/Region.h
+vector
+-
+string
+-
+
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/RegionController.cpp
 RegionController.h
-/cygdrive/f/Personal projects/Europe at war v2.2/RegionController.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/RegionController.h
 
-/cygdrive/f/Personal projects/Europe at war v2.2/RegionController.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/RegionController.h
+Region.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/Region.h
 
-/cygdrive/f/Personal projects/Europe at war v2.2/Technology.cpp
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/Technology.cpp
 Technology.h
-/cygdrive/f/Personal projects/Europe at war v2.2/Technology.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/Technology.h
 
-/cygdrive/f/Personal projects/Europe at war v2.2/Technology.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/Technology.h
 string
 -
 array
 -
 
-/cygdrive/f/Personal projects/Europe at war v2.2/TechnologyController.cpp
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/TechnologyController.cpp
 TechnologyController.h
-/cygdrive/f/Personal projects/Europe at war v2.2/TechnologyController.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/TechnologyController.h
 
-/cygdrive/f/Personal projects/Europe at war v2.2/TechnologyController.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/TechnologyController.h
 vector
 -
 Technology.h
-/cygdrive/f/Personal projects/Europe at war v2.2/Technology.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/Technology.h
 
-/cygdrive/f/Personal projects/Europe at war v2.2/main.cpp
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/main.cpp
 iostream
 -
 TechnologyController.h
-/cygdrive/f/Personal projects/Europe at war v2.2/TechnologyController.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/TechnologyController.h
 BuildingController.h
-/cygdrive/f/Personal projects/Europe at war v2.2/BuildingController.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/BuildingController.h
 MilitaryUnitController.h
-/cygdrive/f/Personal projects/Europe at war v2.2/MilitaryUnitController.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/MilitaryUnitController.h
+RegionController.h
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/RegionController.h
 

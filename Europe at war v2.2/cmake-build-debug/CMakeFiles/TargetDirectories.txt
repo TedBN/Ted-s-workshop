@@ -1,3 +1,3 @@
-/cygdrive/f/Personal projects/Europe at war v2.2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/f/Personal projects/Europe at war v2.2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/cygdrive/f/Personal projects/Europe at war v2.2/cmake-build-debug/CMakeFiles/Europe_at_war_v2_2.dir
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/d/University materials/Personal projects/Europe at war v2.2/cmake-build-debug/CMakeFiles/Europe_at_war_v2_2.dir

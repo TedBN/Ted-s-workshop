@@ -11,4 +11,4 @@ add_executable(Europe_at_war_v2_2 main.cpp
                BuildingController.h
                TechnologyController.h
                TechnologyController.cpp
-               BuildingController.cpp AbstractMilitaryUnit.cpp AbstractMilitaryUnit.h MilitaryUnitController.cpp MilitaryUnitController.h MilitaryUnitTypes.cpp MilitaryUnitTypes.h Army.cpp Army.h Region.cpp Region.h RegionController.cpp RegionController.h)
+               BuildingController.cpp AbstractMilitaryUnit.cpp AbstractMilitaryUnit.h MilitaryUnitController.cpp MilitaryUnitController.h MilitaryUnitTypes.cpp MilitaryUnitTypes.h Army.cpp Army.h Region.cpp Region.h RegionController.cpp RegionController.h Country.cpp Country.h GameController.cpp GameController.h)

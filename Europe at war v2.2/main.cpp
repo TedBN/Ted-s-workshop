@@ -2,6 +2,7 @@
 #include "TechnologyController.h"
 #include "BuildingController.h"
 #include "MilitaryUnitController.h"
+#include "RegionController.h"
 
 int main()
 {
@@ -56,6 +57,11 @@ int main()
     std::cout << "Military units initializing..." << std::endl;
     MilitaryUnitController militaryUnitController = MilitaryUnitController();
     std::cout << "Military units initialized!" << std::endl;
+
+    //Region controller is created
+    std::cout << "Regions initializing..." << std::endl;
+    RegionController regionController = RegionController();
+    std::cout << "Regions initialized!" << std::endl;
 
     return 0;
 }

@@ -22,6 +22,13 @@ Changes for 29/05/2018 commit:
 - Added military controller class for game logic layer
 - Updated StarUML diagram
 
+Changes for 23/02/2020 commit:
+- Added countries class
+- Added regions class and region objects
+- Added region controller class set to initialize a single object at game start
+- Partially added country class
+- Partially added game controller class
+
 Notes for next release:
 - Add spar torpedoes as prerequisites for torpedo boats OR rename current torpedo tech
 - Check tech prerequisites for other techs
